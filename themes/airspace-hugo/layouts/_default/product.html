@@ -1,0 +1,464 @@
+{{ define "main" }}
+
+<!-- ############ HEADER ############ -->
+{{ partial "page-title.html" . }}
+
+
+<!-- ############ SUB MENU ############ -->
+{{ with .Params.submenu }}
+{{ if .enable }}
+
+{{- partial "sub-menu.html" . -}}
+
+{{ end }}
+{{ end }}
+
+<!-- ############ OVERVIEW ############ -->
+{{ with .Params.overview }}
+{{ if .enable }}
+<a id="overview" class="anchor" name="overview"></a>
+<section class="overview bg-gray">
+    <div class="container section-default-padding">
+        <div class="row">
+            <p class="mt-30">{{ .content | markdownify }}</p>
+        </div>
+    </div>
+</section>
+{{ with .tabs }}
+{{ if .enable }}
+<section class="overview-tabs bg-gray">
+    <div class="row">
+        <!-- Tabs -->
+        <ul class="nav nav-pills nav-center">
+            <li data-target="#tabsCarousel" data-slide-to="0" class="" data-toggle="tab">
+                At a
+                <div>Glance</div>
+            </li>
+            <li data-target="#tabsCarousel" data-slide-to="1" class="active" data-toggle="tab">
+                Supported
+                <div>File Formats</div>
+            </li>
+            <li data-target="#tabsCarousel" data-slide-to="2" class="" data-toggle="tab">
+                Platform
+                <div>Independence</div>
+            </li>
+        </ul>
+    </div>
+    <div class="row bg-white">
+        <div class="container section-default-padding">
+            <div class="col-md-12">
+                <!-- Slides -->
+                <div class="carousel slide" id="tabsCarousel">
+                    <div class="tab-content carousel-inner">
+                        <div class="item">
+                            <p>{{ .tab_one.description | markdownify }}‎</p>
+                            <div class="diagram1 d1-cloud">
+                                <div class="d1-row">
+                                    <div class="d1-col d1-left">
+                                        {{ with .tab_one.left }}
+                                            {{ if .enable }}
+                                                <header><i class="{{ .icon }}"></i> {{ .title | markdownify }}</header>
+                                                {{ .content | markdownify }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                    <div class="d1-col d1-right">
+                                        {{ with .tab_one.right }}
+                                            {{ if .enable }}
+                                                <header><i class="{{ .icon }}"></i> {{ .title | markdownify }}</header>
+                                                {{ .content | markdownify }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                </div>
+                                <!-- logo -->
+                                <div class="d1-logo">
+                                    <img alt="GroupDocs.{{ $.Params.product }} for {{ $.Params.platform }}" data-src="{{ .logo.image }}" src="/sdk/90x90/groupdocs_{{ $.Params.product_tag }}-for-{{ $.Params.platform_tag }}.png">
+                                    <header>GroupDocs.{{ $.Params.product }}</header>
+                                    <footer>
+                                    	{{ if eq $.Params.platform "cURL" }}
+					                        <small><em>Cloud for</em> {{ $.Params.platform }}</small>
+					                    {{ else }}
+					                        <small><em>Cloud SDK for</em> {{ $.Params.platform }}</small>
+					                    {{end}}
+                                    </footer>
+                                </div>
+                                <!-- /logo -->
+                            </div>
+                        </div>
+                        <div class="item active">
+                            <p>{{ .tab_two.description | markdownify }}‎</p>
+                            <div class="diagram1 d2 d1-cloud">
+                                <div class="d1-row">
+                                    <div class="d1-col d1-left">
+                                        {{ with .tab_two.left }}
+                                            {{ if .enable }}
+                                                {{ range .table }}
+                                                    <header>{{ .title | markdownify }}</header>
+                                                    {{ .content | markdownify }}
+                                                {{ end }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                    <div class="d1-col d1-right">
+                                        {{ with .tab_two.right }}
+                                            {{ if .enable }}
+                                                {{ range .table }}
+                                                    <header>{{ .title | markdownify }}</header>
+                                                    {{ .content | markdownify }}
+                                                {{ end }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                </div>
+                                <!-- logo -->
+                                <div class="d1-logo">
+                                    <img alt="GroupDocs.{{ $.Params.product }} for {{ $.Params.platform }}" data-src="{{ .logo.image }}" src="/sdk/90x90/groupdocs_{{ $.Params.product_tag }}-for-{{ $.Params.platform_tag }}.png">
+                                    <header>GroupDocs.{{ $.Params.product }}</header>
+                                    <footer>
+                                        {{ if eq $.Params.platform "cURL" }}
+					                        <small><em>Cloud for</em> {{ $.Params.platform }}</small>
+					                    {{ else }}
+					                        <small><em>Cloud SDK for</em> {{ $.Params.platform }}</small>
+					                    {{end}}
+                                    </footer>
+                                </div>
+                                <!-- /logo -->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>{{ .tab_three.description | markdownify }}‎</p>
+                            <div class="diagram1 d1-cloud">
+                                
+                                   <img title="Platform Independence" src="https://www.groupdocs.cloud/templates/groupdocs/images/supported-platform-min.png" alt="GroupDocs.Editor Platform Independence" />
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}
+{{ end }}
+
+
+
+
+
+<!-- ############ APIs ############ -->
+{{ with .Params.apis }}
+{{ if .enable }}
+
+<a id="apis" class="anchor" name="apis"></a>
+<section class="apis">
+    <div class="container section-default-padding">
+        {{ range .api }}
+        <div class="row">
+            <div class="section-title">
+                {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+            </div>
+        </div>
+        <div class="row">
+            {{ range .api_product }}
+            <div class="col-xs-12 col-sm-4 col-md-4 apis-container">
+                <h4>
+                    <a href="{{ .link | relURL }}">
+                        <img alt="{{ .img_alt | markdownify }}" data-src="{{ .image | relURL }}" src="{{ .image | relURL }}">
+                        <div class="api-product">{{ .product | markdownify }}</div class="api-product">
+                        <div class="api-platform">{{ .platform | markdownify }}</div>
+                    </a>
+                </h4>
+                <p>{{ .content | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+
+        
+        
+        {{ if not (in $.Page.Permalink "family") }}
+        <div class="row btns">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <a href="{{ .link | relLangURL }}" class="btn-main btn-solid-border animated fadeInUp">{{ .label }}</a>
+            </div>
+        </div>
+        
+
+        {{end}}
+        {{ end }}
+    </div>
+</section>
+
+{{ end }}
+{{ end }}
+
+<!-- ############ PRODUCTS ############ -->
+{{ with .Params.products }}
+{{ if .enable }}
+<a id="products" class="anchor" name="products"></a>
+<section class="products bg-gray">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+                {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
+            </div>
+        </div>
+        <div class="row">
+            {{ range .product }}
+            <div class="col-xs-12 col-sm-6 col-md-6 product-item">
+                <div class="col-md-2">
+                    <a href="{{ .link | relURL }}">
+                        <img width="90px" height="90px" alt="{{ .img_alt | markdownify }}" data-src="{{ .image | relURL }}" src="{{ .image | relURL }}">
+                    </a>
+                </div>
+                <div class="col-md-10">
+                    <a href="{{ .link | relURL }}">
+                        <h4>{{ .name | markdownify }}</h4>
+                    </a>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ FEATURES ############ -->
+{{ with .Params.features }}
+{{ if .enable }}
+<a id="features" class="anchor" name="features"></a>
+<section class="features bg-gray">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                <h2>{{ .title | markdownify }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .feature }}
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="{{ .icon }} fa-2x"></i>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="row">
+            {{ range .more_feature}}
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="more-feature-item">
+                    <h3>{{ .title | markdownify }}</h4>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ TESTIMONIALS ############ -->
+{{ with .Params.testimonials }}
+{{ if .enable }}
+
+<a id="testimonials" class="anchor" name="testimonials"></a>
+<section class="testimonial section-sm {{ .bg_color }}">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>What People Are Saying</h2>
+                <p>Don't just take our word for it. See what other developers say about our APIs.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="testimonial-carousel text-center">
+                    <div class="testimonial-slider owl-carousel">
+                        {{ range .testimonial }}
+                        <div>
+                            <i class="fas fa-quote-right"></i>
+                            <p>{{ .content | markdownify }}</p>
+                            <div class="user">
+                                <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 text-center">
+                <a href="" class="btn btn-small btn-learn animated fadeInUp">View More Testimonials</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+{{ end }}
+{{ end }}
+
+<!-- ############ SUPPORT ############ -->
+{{ with .Params.support}}
+{{ if .enable }}
+
+<!-- Link variables -->
+{{ $docLink := "" }}
+{{ $srcLink := ""}}
+{{ $apiLink := "" }}
+{{ $vidLink := "https://www.youtube.com/channel/UCSRRI9t9ooReVo82e1d1a0g/" }}
+{{ $fsupportLink := "" }}
+{{ $blogLink := "" }}
+{{ $notesLink := "" }}
+{{ $freeTrialLink := "" }}
+{{ $repoLink := "" }}
+
+{{$platformTag := $.Params.platform_tag}}
+
+{{if in $.Page.Site.BaseURL "groupdocs.com" }}	
+	{{ $docLink = print "https://docs.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag}}
+    {{ $srcLink = print "https://github.com/groupdocs-" $.Params.product_tag }}
+    {{ $apiLink = print "https://github.com/groupdocs-" $.Params.product_tag   }}
+    {{ $vidLink = print "https://www.youtube.com/channel/UCSRRI9t9ooReVo82e1d1a0g/" }}
+    {{ $fsupportLink = print "https://forum.groupdocs.com/c/" $.Params.product_tag  }}
+    {{ $blogLink = print "https://blog.groupdocs.com/category/" $.Params.product_tag }}
+    {{ $notesLink = print "https://docs.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag "/release-notes" }}
+    {{ $freeTrialLink = print "https://downloads.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag }}
+    {{ $repoLink = print "https://github.com/groupdocs-" $.Params.product_tag  }}
+{{ else if in $.Page.Site.BaseURL "groupdocs.cloud" }}
+	{{ $docLink = print "https://docs.groupdocs.cloud/" $.Params.product_tag "/" }}
+	{{ $apiLink	 = print $apiLink $.Params.product_tag "/"}}
+	{{ $fsupportLink = print $fsupportLink $.Params.product_tag "/" }}
+	{{ $blogLink = print $blogLink $.Params.product_tag "/"}}
+	{{ $notesLink	 = print $notesLink $.Params.product_tag "/release-notes/" }}	
+	{{ $repoLink	 = print $repoLink $.Params.product_tag "-cloud/" }}
+
+	<!-- Source Code Link for curl -->
+	{{ if in $.Page.Permalink "curl" }}
+		{{ $srcLink = "https://groupdocscloud.github.io/" }}
+	{{ else }}
+		<!-- Source Code Link for .NET -->
+		{{ if eq $.Params.platform_tag "net" }}
+			{{$platformTag = print "dot" $platformTag}}
+			{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $platformTag "/"}}
+		{{ else }}
+		<!-- Source Code Link for others (java , php , python etc) -->
+		{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $.Params.platform_tag "/"}}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+<a id="support" class="anchor" name="support"></a>
+<section class="support bg-primary">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                <h2>Support and Learning Resources</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="product-item">
+                    <h3>Learning Resources</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="{{ $docLink }}">Documentation</a>
+                            </li>
+                            <li>
+                            	<a href="{{ $srcLink }}">Source Code</a>
+                            </li>
+                            <li>
+                                <a href="{{ $apiLink }}">API References</a>
+                            </li>
+                            <li>
+                                <a href="{{ $vidLink }}">Video Tutorials</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="product-item">
+                    <h3>Product Support</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="{{ $fsupportLink }}">Free Support</a>
+                            </li>
+                            <li>
+                                <a href="{{ $blogLink }}">Blog</a>
+                            </li>
+                            <li>
+                                <a href="{{ $notesLink }}">Release Notes</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row support-btns">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <a href="{{ $freeTrialLink }}" class="btn btn-support btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Start Free Trial</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <a href="{{ $repoLink }}" class="btn btn-support btn-icon animated fadeInUp"><i class="fab fa-github-alt"></i> Download Github Repository</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ SOLUTIONS ############ -->
+{{ with .Params.solutions }}
+{{ if .enable }}
+
+<a id="solutions" class="anchor" name="solutions"></a>
+<section class="solutions bg-primary">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+            </div>
+        </div>
+        <div class="row">
+            {{ range .solution }}
+            <div class="col-sm-3 col-md-3 solution-container">
+                <h4>
+                    <a href="{{ .link | relURL }}">
+                        <img alt="{{ .img_alt | markdownify }}" data-src="{{ .image | relURL }}" src="{{ .image | relURL }}">
+                        {{ .product | markdownify }}
+                        {{ if and (in .Site.BaseURL "sdks.groupdocs.cloud") (eq .platform "cURL") }}
+                        <div><small>Cloud for {{ .platform | markdownify }}</small></div>
+                        {{ else }}
+                        <div><small>Cloud SDK for {{ .platform | markdownify }}</small></div>
+                        {{end}}
+                    </a>
+                </h4>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ BACK 2 TOP ############ -->
+{{ with .Params.back_to_top }}
+{{ if .enable }}
+
+{{- partial "back2top.html" . -}}
+
+{{ end }}
+{{ end }}
+
+{{ end }}

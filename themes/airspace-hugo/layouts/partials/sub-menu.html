@@ -1,0 +1,36 @@
+<a id="submenu" class="anchor" name="submenu"></a>
+<section class="submenu stickysubmenu">
+    <div class="container section-default-padding " >
+        <div class="row">
+            {{ with .left }}
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <h4>
+                    <img alt="{{ .img_alt | markdownify }}" data-src="{{ .image | relURL }}" src="{{ .image | relURL }}">
+                    {{ .product | markdownify }}
+                    {{ if and (in .Site.BaseURL "sdks.groupdocs.cloud") (eq .platform "cURL") }}
+                        <div><small>Cloud for {{ .platform | markdownify }}</small></div>
+                    {{ else }}
+                        <div><small>Cloud SDK for {{ .platform | markdownify }}</small></div>
+                    {{end}}
+                </h4>
+            </div>
+            {{ end }}
+            {{ with .middle }}
+            <div class="col-sm-5 col-md-5">
+                <ul class="nav nav-pills mb-hide">
+                    {{ range .button }}
+                    <li><a href="{{ .link }}">{{ .text | markdownify }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+            {{ with .right }}
+            <div class="col-sm-4 col-md-4 text-center">
+                <a href="{{ .link_download | relLangURL }}" class="btn btn-small btn-download animated fadeInUp"><i class="fas fa-arrow-down"></i> Download</a>
+                <a href="{{ .link_learn | relLangURL }}" class="btn btn-small btn-learn animated fadeInUp"><i class="fas fa-file-alt"></i> Learn</a>
+                <a href="{{ .link_buy | relLangURL }}" class="btn btn-small btn-buy animated fadeInUp"><i class="fas fa-shopping-cart"></i> Buy</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

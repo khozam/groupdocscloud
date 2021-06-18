@@ -1,0 +1,51 @@
+################################# Basic configuration #########################
+# Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+baseURL = "https://sdks.groupdocs.cloud"
+title = ".NET & Java Document Automation APIs | GroupDocs"
+theme = "airspace-hugo"
+# Number of posts per page in list view
+paginate = "4"
+# Post excerpt length
+summaryLength = "30"
+# Disabled languages
+disableLanguages = []
+
+################################# Output formats ##############################
+# Documentation: https://gohugo.io/templates/output-formats/#customizing-output-formats
+
+[outputs]
+home = [ "HTML" ]
+
+################################# Markup ######################################
+# Documentation: https://gohugo.io/getting-started/configuration-markup
+
+[markup.goldmark.renderer]
+# Allow "unsafe" HTML in Markdown
+unsafe = true
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false
+
+################################# Default parameters ##########################
+[params]
+logo = "https://cms.admin.containerize.com/templates/groupdocs/img/svg/groupdocs-logo.svg"
+logo_width = "270px"
+# OpenGraph / Twitter Card metadata
+description = "Cloud REST APIs along with open-source SDKs that allow developers to enhance applications with the capability to display, annotate, convert, e-sign, merge, classify, compare & translate documents"
+author = "GroupDocs"
+# this image will be used as fallback if a page has no image of its own
+image = "https://cms.admin.containerize.com/templates/groupdocs/img/svg/groupdocs-logo.svg"
+
+################################# Cookies #####################################
+[params.cookies]
+enable = false
+expire_days = 2
+
+################################# English translation #########################
+[languages.en]
+languageName = "English"
+languageCode = "en-US"
+contentDir = "content/english"
+weight = 1
