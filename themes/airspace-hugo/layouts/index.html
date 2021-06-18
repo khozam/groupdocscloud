@@ -42,6 +42,17 @@
           <img src="{{ .image | relURL }}" width="90" height="90"/>
           <h4><a href="{{ .link | relLangURL }}">{{ .name | markdownify }}</a></h4>
           <p>{{ .content | markdownify }}</p>
+		  {{ with .button_curl }}
+            {{ if .enable }}
+              <a href="{{ .link | relLangURL }}">
+                <div class="btn btn-solid-border product-btn animated fadeInUp">
+                  <span class="product-btn-label">{{ .label | markdownify }}</span>
+                  <br>
+                  <span class="product-btn-platform">Cloud for cURL</span>
+                </div>
+              </a>
+            {{ end }}
+          {{ end }}
           {{ with .button_net }}
             {{ if .enable }}
               <a href="{{ .link | relLangURL }}">
@@ -59,40 +70,7 @@
                 <div class="btn btn-solid-border product-btn animated fadeInUp">
                   <span class="product-btn-label">{{ .label | markdownify }}</span>
                   <br>
-                  <span class="product-btn-platform">>Cloud SDK for Java</span>
-                </div>
-              </a>
-            {{ end }}
-          {{ end }}
-          {{ with .button_python }}
-            {{ if .enable }}
-              <a href="{{ .link | relLangURL }}">
-                <div class="btn btn-solid-border product-btn animated fadeInUp">
-                  <span class="product-btn-label">{{ .label | markdownify }} for</span>
-                  <br>
-                  <span class="product-btn-platform">>Cloud SDK for Python</span>
-                </div>
-              </a>
-            {{ end }}
-          {{ end }}
-          {{ with .button_curl }}
-            {{ if .enable }}
-              <a href="{{ .link | relLangURL }}">
-                <div class="btn btn-solid-border product-btn animated fadeInUp">
-                  <span class="product-btn-label">{{ .label | markdownify }}</span>
-                  <br>
-                  <span class="product-btn-platform">Cloud for cURL</span>
-                </div>
-              </a>
-            {{ end }}
-          {{ end }}
-          {{ with .button_ruby }}
-            {{ if .enable }}
-              <a href="{{ .link | relLangURL }}">
-                <div class="btn btn-solid-border product-btn animated fadeInUp">
-                  <span class="product-btn-label">{{ .label | markdownify }}</span>
-                  <br>
-                  <span class="product-btn-platform">>Cloud SDK for Ruby</span>
+                  <span class="product-btn-platform">Cloud SDK for Java</span>
                 </div>
               </a>
             {{ end }}
@@ -103,7 +81,29 @@
                 <div class="btn btn-solid-border product-btn animated fadeInUp">
                   <span class="product-btn-label">{{ .label | markdownify }}</span>
                   <br>
-                  <span class="product-btn-platform">>Cloud SDK for PHP</span>
+                  <span class="product-btn-platform">Cloud SDK for PHP</span>
+                </div>
+              </a>
+            {{ end }}
+          {{ end }}
+          {{ with .button_python }}
+            {{ if .enable }}
+              <a href="{{ .link | relLangURL }}">
+                <div class="btn btn-solid-border product-btn animated fadeInUp">
+                  <span class="product-btn-label">{{ .label | markdownify }}</span>
+                  <br>
+                  <span class="product-btn-platform">Cloud SDK for Python</span>
+                </div>
+              </a>
+            {{ end }}
+          {{ end }}
+          {{ with .button_ruby }}
+            {{ if .enable }}
+              <a href="{{ .link | relLangURL }}">
+                <div class="btn btn-solid-border product-btn animated fadeInUp">
+                  <span class="product-btn-label">{{ .label | markdownify }}</span>
+                  <br>
+                  <span class="product-btn-platform">Cloud SDK for Ruby</span>
                 </div>
               </a>
             {{ end }}
@@ -114,7 +114,7 @@
                 <div class="btn btn-solid-border product-btn animated fadeInUp">
                   <span class="product-btn-label">{{ .label | markdownify }}</span>
                   <br>
-                  <span class="product-btn-platform">>Cloud SDK for Node.js</span>
+                  <span class="product-btn-platform">Cloud SDK for Node.js</span>
                 </div>
               </a>
             {{ end }}
@@ -125,7 +125,7 @@
                 <div class="btn btn-solid-border product-btn animated fadeInUp">
                   <span class="product-btn-label">{{ .label | markdownify }}</span>
                   <br>
-                  <span class="product-btn-platform">>Cloud SDK for Android</span>
+                  <span class="product-btn-platform">Cloud SDK for Android</span>
                 </div>
               </a>
             {{ end }}
