@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Annotation Cloud for cURL"
-        image: "/sdk/groupdocs_annotation-for-curl.webp"
+        image: "/sdk/64x64/groupdocs_annotation-for-curl.webp"
         product: "GroupDocs.Annotation"
         platform: "cURL"
 
