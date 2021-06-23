@@ -1,6 +1,6 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-baseURL = "/"
+baseURL = "sdks.groupdocs.cloud"
 title = "Document Automation REST APIs | GroupDocs"
 theme = "airspace-hugo"
 # Number of posts per page in list view
