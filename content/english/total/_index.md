@@ -43,7 +43,7 @@ product:
         link: "total/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-annotation-cloud.png"
+    - image : "/logo/groupdocs-annotation-cloud.png"
       name: GroupDocs.Annotation Cloud Product Family
       link: "/annotation/family"
       content: "GroupDocs.Annotation Cloud allows easy integration of annotation features to any type of app without requiring any additional software. You can develop annotation apps with the ability to collaborate in real-time while annotating popular document & image types.
@@ -59,7 +59,7 @@ product:
         link: "viewer/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-conversion-cloud.png"
+    - image : "/logo/groupdocs-conversion-cloud.png"
       name: GroupDocs.Conversion Cloud Product Family
       link: "/conversion/family"
       content: "GroupDocs.Conversion Cloud lets you build applications that can convert back and forth between over 50+ common file formats, including PDF, Microsoft Office, OpenDocument, HTML, TXT, CAD, raster images and many more.
@@ -91,7 +91,7 @@ product:
         link: "conversion/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-signature-cloud.png"
+    - image : "/logo/groupdocs-signature-cloud.png"
       name: GroupDocs.Signature Cloud Product Family
       link: "/signature/family"
       content: "GroupDocs.Signature Cloud API is the most popular API on the market that provides the e-signature functionality with detailed audit trails, 256-bit SSL encryption, and anti-tampering technology for secure online document signing.
@@ -107,7 +107,7 @@ product:
         link: "comparison/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-metadata-cloud.png"
+    - image : "/logo/groupdocs-metadata-cloud.png"
       name: GroupDocs.Metadata Cloud Product Family
       link: "/metadata/family"
       content: "GroupDocs.Metadata Cloud API is a flexible metadata management solution to view, update, extract, find and remove metadata information from well over 60 documents, images and other popular file formats.
@@ -123,7 +123,7 @@ product:
         link: "signature/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-parser-cloud.png"
+    - image : "/logo/groupdocs-parser-cloud.png"
       name: GroupDocs.Parser Cloud Product Family
       link: "/parser/family"
       content: "GroupDocs.Parser Cloud allows parsing documents using REST API or any of the platform specific SDKs to extract text, extract images out of the whole document and specified page ranges. The API supports the long list of popular document formats, eBooks and containers like ZIP archives and PDF Portfolios.
@@ -139,7 +139,7 @@ product:
         link: "assembly/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-merger-cloud.png"
+    - image : "/logo/groupdocs-merger-cloud.png"
       name: GroupDocs.Merger Cloud Product Family
       link: "/merger/family"
       content: "GroupDocs.Merger Cloud API is a document merger and splitter REST API that supports business documents of many file formats. It allows you to create online split or combine documents tools with features to reorder, rotate, swap pages or change page orientation.
@@ -155,7 +155,7 @@ product:
         link: "metadata/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-classification-cloud.png"
+    - image : "/logo/groupdocs-classification-cloud.png"
       name: GroupDocs.Classification Cloud Product Family
       link: "/classification/family"
       content: "GroupDocs.Classification Cloud API enables the developers to classify the raw text and documents into predefined categories as per IAB-2 or document taxonomy.
@@ -171,7 +171,7 @@ product:
         link: "search/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-translation-cloud.png"
+    - image : "/logo/groupdocs-translation-cloud.png"
       name: GroupDocs.Translation Cloud Product Family
       link: "/translation/api"
       content: "GroupDocs.Translation Cloud allows English and other languages text-translation from Microsoft Word, Excel & PowerPoint files to other popular business languages using REST APIs. The content translation is supported across 22 language pairs, namely to & from English to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish & Portuguese.
