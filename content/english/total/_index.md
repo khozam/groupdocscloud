@@ -75,7 +75,7 @@ product:
         link: "annotation/java/"
 
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-comparison-cloud.png"
+    - image : "/logo/groupdocs-comparison-cloud.png"
       name: GroupDocs.Comparison Cloud Product Family
       link: "/comparison/family"
       content: "GroupDocs.Comparison Cloud can compare two versions of a document with the ability to display the differences in a simple UI. Developers can easily embed the Difference Finder UI to any type of application, allowing their users to compare 50+ document types online.
