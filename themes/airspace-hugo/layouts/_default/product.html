@@ -311,15 +311,15 @@
 {{ if .enable }}
 
 <!-- Link variables -->
-{{ $docLink := "" }}
-{{ $srcLink := ""}}
-{{ $apiLink := "" }}
+{{ $docLink := print "https://docs.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag }}
+{{ $srcLink := "https://github.com/groupdocs-"}}
+{{ $apiLink := "https://apireference.groupdocs.cloud/" }}
 {{ $vidLink := "https://www.youtube.com/channel/UCSRRI9t9ooReVo82e1d1a0g/" }}
-{{ $fsupportLink := "" }}
-{{ $blogLink := "" }}
-{{ $notesLink := "" }}
-{{ $freeTrialLink := "" }}
-{{ $repoLink := "" }}
+{{ $fsupportLink := "https://forum.groupdocs.cloud/c/" }}
+{{ $blogLink := "https://blog.groupdocs.cloud/category/" }}
+{{ $notesLink := "https://docs.groupdocs.cloud/" }}
+{{ $freeTrialLink := "https://dashboard.groupdocs.cloud/" }}
+{{ $repoLink := "https://github.com/groupdocs-" }}
 
 {{$platformTag := $.Params.platform_tag}}
 
@@ -333,6 +333,7 @@
     {{ $notesLink = print "https://docs.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag "/release-notes" }}
     {{ $freeTrialLink = print "https://downloads.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag }}
     {{ $repoLink = print "https://github.com/groupdocs-" $.Params.product_tag  }}
+	
 {{ else if in $.Page.Site.BaseURL "groupdocs.cloud" }}
 	{{ $docLink = print "https://docs.groupdocs.cloud/" $.Params.product_tag "/" }}
 	{{ $apiLink	 = print $apiLink $.Params.product_tag "/"}}
