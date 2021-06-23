@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Translation Cloud SDK for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-net.webp"
+        image: "/sdk/272x272/groupdocs_translation-for-net.webp"
         product: "GroupDocs.Translation"
         platform: ".NET"
 
@@ -274,21 +274,21 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Viewer"
           platform: "cURL"
           link: "/translation/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-net.webp"
+          image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Viewer"
           platform: ".NET"
           link: "/translation/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-java.webp"
+          image: "/sdk/272x272/groupdocs_translation-for-java.webp"
           product: "GroupDocs.Viewer"
           platform: "Cloud SKD for Java"
           link: "/translation/java/"
@@ -297,7 +297,7 @@ solutions:
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-python.webp"
+          image: "/sdk/272x272/groupdocs_translation-for-python.webp"
           product: "GroupDocs.Viewer"
           platform: "Python"
           link: "/translation/python/"

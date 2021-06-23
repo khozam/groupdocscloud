@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/conversion/curl/"
           img_alt: "GroupDocs.Conversion Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_conversion-for-curl.webp"
           product: "GroupDocs.Conversion"
           platform: "cURL"
           content: "Work with cURL RESTful file conversion API to easily convert Microsoft Office, PDF, Email, Project, HTML and other common file formats in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/conversion/net/"
           img_alt: "GroupDocs.Conversion Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.webp"
+          image: "/sdk/272x272/groupdocs_conversion-for-net.webp"
           product: "GroupDocs.Conversion"
           platform: ".NET"
           content: ".NET Document Viewer REST API to accurately render documents to and from widely used file formats on any platform using Cloud SDK."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/conversion/java/"
           img_alt: "GroupDocs.Conversion Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.webp"
+          image: "/sdk/272x272/groupdocs_conversion-for-java.webp"
           product: "GroupDocs.Conversion"
           platform: "Java"
           content: "Enrich your cloud-based Java applications with advanced documents conversion features on any platform capable of calling REST APIs."

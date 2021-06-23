@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/curl/"
           img_alt: "GroupDocs.Watermark Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_watermark-for-curl.webp"
           product: "GroupDocs.Watermark"
           platform: "cURL"
           content: "Work with cURL RESTful document watermark API to quickly annotate PDF, Word, Excel, PowerPoint, Visio, images and many other formats in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/net/"
           img_alt: "GroupDocs.Watermark Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.webp"
+          image: "/sdk/272x272/groupdocs_watermark-for-net.webp"
           product: "GroupDocs.Watermark"
           platform: ".NET"
           content: "Use watermark RESTful API easily with .NET SDK to add text, watermark, area, point and various other watermark types to 40+ popular file formats."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/java/"
           img_alt: "GroupDocs.Watermark Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.webp"
+          image: "/sdk/272x272/groupdocs_watermark-for-java.webp"
           product: "GroupDocs.Watermark"
           platform: "Java"
           content: "Add high quality document watermark features to document and image formats with specially designed document watermark SDK for Java."

@@ -24,7 +24,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/viewer/curl/"
           img_alt: "GroupDocs.Viewer Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Viewer for"
           platform: "cURL"
           content: "Send API requests to our cloud-based documents viewer RESTful API and view popular document formats in any language or platform."
@@ -32,7 +32,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/viewer/net/"
           img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-net.webp"
           product: "GroupDocs.Viewer for"
           platform: ".NET"
           content: "Enhance your .NET applications with the capabilities to edit document formats using viewer .NET SDK."
@@ -40,7 +40,7 @@ apis:
           # api_product loop
         - link: "https://products.groupdocs.com/viewer/java/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-java.webp"
           product: "GroupDocs.Viewer for"
           platform: "Java"
           content: "Efficiently edit bunch of document formats within Java applications using document viewer SDK for Java."
@@ -59,7 +59,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/viewer/php/"
           img_alt: "GroupDocs.Viewer Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-php.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-php.webp"
           product: "GroupDocs.Viewer"
           platform: "PHP"
           content: "PHP document editing SDK to quickly and accurately modify documents formats without installing any external software."
@@ -67,7 +67,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/viewer/python/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-python.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-python.webp"
           product: "GroupDocs.Viewer"
           platform: "Python"
           content: "Document viewer SDK for Python to easily manipulate a wide range of document formats directly within your applications."
@@ -76,7 +76,7 @@ apis:
           # api_product loop
         - link: "https://products.groupdocs.com/viewer/ruby/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-ruby.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-ruby.webp"
           product: "GroupDocs.Viewer"
           platform: "Ruby"
           content: "Effortlessly perform document editing operations within your apps using our SDK for Ruby."
@@ -90,7 +90,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/node.js"
           img_alt: "GroupDocs.Viewer Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-node.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-node.webp"
           product: "GroupDocs.Viewer"
           platform: "Node.js"
           content: "Document viewer SDK for Node.js to efficiently integrate our cloud-based viewer API in your apps."
@@ -98,7 +98,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/android/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Android"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-android.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-android.webp"
           product: "GroupDocs.Viewer"
           platform: "Android"
           content: "Android SDK for fast and clean document edit in your apps via our cloud-based viewer API."

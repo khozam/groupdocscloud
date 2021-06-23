@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Classification for Cloud"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_classification-for-curl.webp"
+        image: "/sdk/272x272/groupdocs_classification-for-curl.webp"
         product: "GroupDocs.Classification"
         platform: "cURL"
 
@@ -250,14 +250,14 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Viewer"
           platform: "cURL"
           link: "/classification/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-net.webp"
+          image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Viewer"
           platform: " .NET"
           link: "/classification/net/"

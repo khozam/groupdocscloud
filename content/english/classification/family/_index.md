@@ -24,7 +24,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/classification/curl/"
           img_alt: "GroupDocs.Classification Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_classification-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_classification-for-curl.webp"
           product: "GroupDocs.Classification for"
           platform: "Cloud for cURL"
           content: "Use cURL for calling the RESTful APIs to add classification abilities, with support for 3rd party classification services, to your application, regardless of a coding language or platform."
@@ -32,7 +32,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/classification/net/"
           img_alt: "GroupDocs.Classification Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_classification-for-net.webp"
+          image: "/sdk/272x272/groupdocs_classification-for-net.webp"
           product: "GroupDocs.Classification for"
           platform: "Cloud SDK for .NET"
           content: "Use SDK for .NET to quickly add document classification abilities to your .NET apps."

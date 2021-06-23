@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/translation/curl/"
           img_alt: "GroupDocs.Translation Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Translation"
           platform: "cURL"
           content: "Work with cURL RESTful document translation API to quickly render and display Microsoft Office, PDF and other common file formats in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/translation/net/"
           img_alt: "GroupDocs.Translation Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-net.webp"
           product: "GroupDocs.Translation"
           platform: ".NET"
           content: "Add powerful document formats viewing capabilities in .NET applications using Cloud SDK for .NET. View documents in HTML, PDF or as image."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/translation/java/"
           img_alt: "GroupDocs.Translation Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-java.webp"
           product: "GroupDocs.Translation"
           platform: "Java"
           content: "Add high fidelity document rendering features to your java applications with specially designed document translation SDK for Java."

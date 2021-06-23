@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "/editor/curl/"
           img_alt: "GroupDocs.Editor Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_editor-for-curl.webp"
           product: "GroupDocs.Editor for"
           platform: "cURL"
           content: "Work with cURL RESTful document editor API to modify document contents of Word, Excel, Presentations, HTML and Text documents in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "/editor/net/"
           img_alt: "GroupDocs.Editor Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-net.webp"
+          image: "/sdk/272x272/groupdocs_editor-for-net.webp"
           product: "GroupDocs.Editor for"
           platform: ".NET"
           content: "Add powerful document formats editing features in .NET applications using Cloud SDK for .NET. Edit MS Office, Web and XML documents."
@@ -41,7 +41,7 @@ apis:
           # api_product loop
         - link: "/editor/java/"
           img_alt: "GroupDocs.Editor Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-java.webp"
+          image: "/sdk/272x272/groupdocs_editor-for-java.webp"
           product: "GroupDocs.Editor for"
           platform: "Java"
           content: "Advanced document editor SDK for Java applications to edit industry standard document file formats on any platform capable to call REST APIs."

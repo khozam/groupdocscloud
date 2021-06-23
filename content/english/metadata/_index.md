@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/metadata/curl/"
           img_alt: "GroupDocs.Metadata Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_metadata-for-curl.webp"
           product: "GroupDocs.Metadata"
           platform: "cURL"
           content: "Work with cURL RESTful metadata manipulation APIs to manage metadata information of PDF, Word, Excel, Presentations, images and multimedia file in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/metadata/net/"
           img_alt: "GroupDocs.Metadata Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-net.webp"
+          image: "/sdk/272x272/groupdocs_metadata-for-net.webp"
           product: "GroupDocs.Metadata"
           platform: ".NET"
           content: "Use metadata REST API with .NET SDK to add, edit, extract, search and delete metadata from document formats within .NET applications."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/metadata/java/"
           img_alt: "GroupDocs.Metadata Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-java.webp"
+          image: "/sdk/272x272/groupdocs_metadata-for-java.webp"
           product: "GroupDocs.Metadata"
           platform: "Java"
           content: "Enhance your Java applications with powerful metadata management features using Metadata SDK for Java."

@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/viewer/curl/"
           img_alt: "GroupDocs.Viewer Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Viewer"
           platform: "cURL"
           content: "Work with cURL RESTful document viewer API to quickly render and display Microsoft Office, PDF and other common file formats in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/viewer/net/"
           img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-net.webp"
           product: "GroupDocs.Viewer"
           platform: ".NET"
           content: "Add powerful document formats viewing capabilities in .NET applications using Cloud SDK for .NET. View documents in HTML, PDF or as image."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/viewer/java/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-java.webp"
           product: "GroupDocs.Viewer"
           platform: "Java"
           content: "Add high fidelity document rendering features to your java applications with specially designed document viewer SDK for Java."

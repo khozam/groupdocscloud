@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Signature Cloud for cURL"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-curl.webp"
+        image: "/sdk/272x272/groupdocs_signature-for-curl.webp"
         product: "GroupDocs.Signature"
         platform: "Cloud for cURL"
 
@@ -228,48 +228,48 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-net.webp"
+          image: "/sdk/272x272/groupdocs_signature-for-net.webp"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for .NET"
           link: "/signature/net"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-java.webp"
+          image: "/sdk/272x272/groupdocs_signature-for-java.webp"
           product: "GroupDocs.Signature"
           platform: "Cloud SKD for Java"
           link: "/signature/java"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-php.webp"
+          image: "/sdk/272x272/groupdocs_signature-for-php.webp"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for PHP"
           link: "/signature/php"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-python.webp"
+          image: "/sdk/272x272/groupdocs_signature-for-python.webp"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for Python"
           link: "/signature/python"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-ruby.webp"
+          image: "/sdk/272x272/groupdocs_signature-for-ruby.webp"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for Ruby"
           link: "/signature/ruby"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-node.webp"
+          image: "/sdk/272x272/groupdocs_signature-for-node.webp"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for Node.js"
           link: "/signature/nodejs"
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Android"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-android.webp"
+          image: "/sdk/272x272/groupdocs_signature-for-android.webp"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for Android"
           link: "/signature/android"

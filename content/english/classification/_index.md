@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/classification/curl/"
           img_alt: "GroupDocs.Classification Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Classification"
           platform: "cURL"
           content: "Do not worry about the platform, just send a REST API call to classify the text and MS Word, OpenOffice, PDF documents from devices capable of executing cURL commands."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/classification/net/"
           img_alt: "GroupDocs.Classification Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.webp"
+          image: "/sdk/272x272/groupdocs_viewer-for-net.webp"
           product: "GroupDocs.Classification"
           platform: ".NET"
           content: "Open source cloud SDK designed for .NET developers to use GroupDocs.Classification REST APIs."

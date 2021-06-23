@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Watermark Cloud for cURL"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-curl.webp"
+        image: "/sdk/272x272/groupdocs_watermark-for-curl.webp"
         product: "GroupDocs.Watermark"
         platform: "cURL"
 
@@ -255,21 +255,21 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Watermark for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_watermark-for-curl.webp"
           product: "GroupDocs.Watermark"
           platform: "cURL"
           link: "/watermark/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.webp"
+          image: "/sdk/272x272/groupdocs_watermark-for-net.webp"
           product: "GroupDocs.Watermark"
           platform: ".NET"
           link: "/watermark/net/"
         
         # solution loop
         - img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.webp"
+          image: "/sdk/272x272/groupdocs_watermark-for-java.webp"
           product: "GroupDocs.Watermark"
           platform: "Java"
           link: "/watermark/java/"

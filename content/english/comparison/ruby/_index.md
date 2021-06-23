@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Comparison Cloud SDK for Ruby"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-ruby.webp"
+        image: "/sdk/272x272/groupdocs_comparison-for-ruby.webp"
         product: "GroupDocs.Comparison"
         platform: "Cloud SDK for Ruby"
 
@@ -256,40 +256,40 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-curl.webp"
+          image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
           product: "GroupDocs.Comparison"
           platform: "Cloud for cURL"
           link: "/comparison/curl"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-net.webp"
+          image: "/sdk/272x272/groupdocs_comparison-for-net.webp"
           product: "GroupDocs.Comparison"
           platform: "Cloud SKD for .NET"
           link: "/comparison/net"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-java.webp"
+          image: "/sdk/272x272/groupdocs_comparison-for-java.webp"
           product: "GroupDocs.Comparison"
           platform: "Cloud SDK for Java"
           link: "/comparison/java"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-php.webp"
+          image: "/sdk/272x272/groupdocs_comparison-for-php.webp"
           product: "GroupDocs.Comparison"
           platform: "Cloud SDK for PHP"
           link: "/comparison/php"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-python.webp"
+          image: "/sdk/272x272/groupdocs_comparison-for-python.webp"
           product: "GroupDocs.Comparison"
           platform: "Cloud SDK for Python"
           link: "/comparison/python"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_comparison-for-node.webp"
+          image: "/sdk/272x272/groupdocs_comparison-for-node.webp"
           product: "GroupDocs.Comparison"
           platform: "Cloud SDK for Node.js"
           link: "/comparison/nodejs"
