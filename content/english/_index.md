@@ -23,7 +23,7 @@ product:
   description: "Document automation has always been an complex process until now, <br> with GroupDocs REST APIs automate your documents in any way imaginable"
   product_item:
     # product item loop
-    - image : "/logo/groupdocs-total-cloud.png"
+    - image : "/logo/groupdocs-total-cloud.webp"
       name: GroupDocs.Total Product Family
       link: "total"
       content: "Enable your applications to manipulate more than 100 file formats. Includes all of our 25+ individual products."
@@ -34,7 +34,7 @@ product:
         link: "total/"
 
     # product item loop
-    - image : "/logo/groupdocs-viewer-cloud.png"
+    - image : "/logo/groupdocs-viewer-cloud.webp"
       name: GroupDocs.Viewer Cloud Product Family
       link: "viewer/"
       content: "Accelerate and simplify document or image viewing in any type of application with our document viewer cloud-based REST API."
@@ -76,7 +76,7 @@ product:
 
 
     # product item loop
-    - image : "/logo/groupdocs-annotation-cloud.png"
+    - image : "/logo/groupdocs-annotation-cloud.webp"
       name: GroupDocs.Annotation Cloud Product Family
       link: "annotation"
       content: "Annotate a number of document and image formats irrespective of the language or platform using our true document annotation RESTful APIs."
@@ -117,7 +117,7 @@ product:
         link: "annotation/nodejs/"
 
     # product item loop
-    - image : "/logo/groupdocs-conversion-cloud.png"
+    - image : "/logo/groupdocs-conversion-cloud.webp"
       name: GroupDocs.Conversion Cloud Product Family
       link: "conversion"
       content: "Enhance productivity and streamline workflows with fast batch document conversion REST APIs in any cross-platform application."
@@ -164,7 +164,7 @@ product:
       
 
     # product item loop
-    - image : "/logo/groupdocs-comparison-cloud.png"
+    - image : "/logo/groupdocs-comparison-cloud.webp"
       name: GroupDocs.Comparison Cloud Product Family
       link: "comparison"
       content: "Compare two similar format documents and accept or reject changes by consuming our difference checker cloud-based REST API."
@@ -205,7 +205,7 @@ product:
         link: "comparison/nodejs/"
 
     # product item loop
-    - image : "/logo/groupdocs-signature-cloud.png"
+    - image : "/logo/groupdocs-signature-cloud.webp"
       name: GroupDocs.Signature Cloud Product Family
       link: "signature"
       content: "Automate document signing process with secure cross-platform e-signature REST APIs for your personal or business signatures."
@@ -252,7 +252,7 @@ product:
       
 
     # product item loop
-    - image : "/logo/groupdocs-metadata-cloud.png"
+    - image : "/logo/groupdocs-metadata-cloud.webp"
       name: GroupDocs.Metadata Cloud Product Family
       link: "metadata"
       content: "Manage metadata properties of documents, images and various other file formats in any cross-platform application using cloud based metadata REST APIs."
@@ -273,7 +273,7 @@ product:
         link: "metadata/java/"
     
     # product item loop
-    - image : "/logo/groupdocs-parser-cloud.png"
+    - image : "/logo/groupdocs-parser-cloud.webp"
       name: GroupDocs.Parser Cloud Product Family
       link: "parser"
       content: "Parse documents using REST API or platform specific SDKs to extract text, images, and metadata from the long list of supported document formats and containers like ZIP archives and PDF Portfolios."
@@ -314,7 +314,7 @@ product:
         link: "parser/nodejs/"
 
     # product item loop
-    - image : "/logo/groupdocs-watermark-cloud.png"
+    - image : "/logo/groupdocs-watermark-cloud.webp"
       name: GroupDocs.Watermark Cloud Product Family
       link: "watermark"
       content: "Text and image watermarks management on a bunch of document format on any platform using Watermark cloud REST APIs."
@@ -336,7 +336,7 @@ product:
 
       
     # product item loop
-    - image : "/logo/groupdocs-editor-cloud.png"
+    - image : "/logo/groupdocs-editor-cloud.webp"
       name: GroupDocs.Editor Cloud Product Family
       link: "editor"
       content: "Upload popular industry standard document formats in any WYSIWYG editor, modify the contents and save back to original format with precision using document editor REST APIs."
@@ -383,7 +383,7 @@ product:
       
 
     # product item loop
-    - image : "/logo/groupdocs-merger-cloud.png"
+    - image : "/logo/groupdocs-merger-cloud.webp"
       name: GroupDocs.Merger Cloud Product Family
       link: "merger"
       content: "Merge, split documents or perform different document page level operations on a wide range of supported formats."
@@ -430,7 +430,7 @@ product:
       
     
     # product item loop
-    - image : "/logo/groupdocs-classification-cloud.png"
+    - image : "/logo/groupdocs-classification-cloud.webp"
       name: GroupDocs.Classification Cloud Product Family
       link: "classification"
       content: "Build custom applications to perform documents and text categorization operations using different taxonomies within your Cloud-based applications."
@@ -447,7 +447,7 @@ product:
 
 
     # product item loop
-    - image : "/logo/groupdocs-translation-cloud.png"
+    - image : "/logo/groupdocs-translation-cloud.webp"
       name: GroupDocs.Translation Product Family
       link: "translation"
       content: "Build custom applications to perform documents and text categorization operations using different taxonomies within your applications."

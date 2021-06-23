@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Editor Cloud SDK for PHP"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-php.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-php.webp"
         product: "GroupDocs.Editor"
         platform: "PHP"
 

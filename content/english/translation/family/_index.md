@@ -24,7 +24,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/translation/curl/"
           img_alt: "GroupDocs.Viewer Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Viewer for"
           platform: "cURL"
           content: "Send API requests to our cloud-based documents translation RESTful API and view popular document formats in any language or platform."
@@ -32,7 +32,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/translation/net/"
           img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Viewer for"
           platform: ".NET"
           content: "Enhance your .NET applications with the capabilities to edit document formats using translation .NET SDK."
@@ -40,7 +40,7 @@ apis:
           # api_product loop
         - link: "https://products.groupdocs.com/translation/java/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-java.webp"
           product: "GroupDocs.Viewer for"
           platform: "Java"
           content: "Efficiently edit bunch of document formats within Java applications using document translation SDK for Java."
@@ -60,7 +60,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/translation/python/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-python.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-python.webp"
           product: "GroupDocs.Viewer"
           platform: "Python"
           content: "Document translation SDK for Python to easily manipulate a wide range of document formats directly within your applications."

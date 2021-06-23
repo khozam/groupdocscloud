@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Editor Cloud SDK for Python"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-python.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-python.webp"
         product: "GroupDocs.Editor"
         platform: "Python"
 

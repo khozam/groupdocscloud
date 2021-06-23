@@ -24,7 +24,7 @@ apis:
         # api_product loop
         - link: "/editor/curl/"
           img_alt: "GroupDocs.Editor Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-curl.webp"
           product: "GroupDocs.Editor for"
           platform: "cURL"
           content: "Send API requests to our cloud-based documents editor RESTful API and edit popular document formats in any language or platform."
@@ -32,7 +32,7 @@ apis:
         # api_product loop
         - link: "/editor/net/"
           img_alt: "GroupDocs.Editor Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-net.webp"
           product: "GroupDocs.Editor for"
           platform: ".NET"
           content: "Enhance your .NET applications with the capabilities to edit document formats using editor .NET SDK."
@@ -40,7 +40,7 @@ apis:
           # api_product loop
         - link: "/editor/java/"
           img_alt: "GroupDocs.Editor Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-java.webp"
           product: "GroupDocs.Editor for"
           platform: "Java"
           content: "Efficiently edit bunch of document formats within Java applications using document editor SDK for Java."
@@ -59,7 +59,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/editor/php/"
           img_alt: "GroupDocs.Editor Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-php.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-php.webp"
           product: "GroupDocs.Editor"
           platform: "PHP"
           content: "PHP document editing SDK to quickly and accurately modify documents formats without installing any external software."
@@ -67,7 +67,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/editor/python/"
           img_alt: "GroupDocs.Editor Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-python.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-python.webp"
           product: "GroupDocs.Editor"
           platform: "Python"
           content: "Document editor SDK for Python to easily manipulate a wide range of document formats directly within your applications."
@@ -76,7 +76,7 @@ apis:
           # api_product loop
         - link: "https://products.groupdocs.com/editor/ruby/"
           img_alt: "GroupDocs.Editor Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-ruby.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-ruby.webp"
           product: "GroupDocs.Editor"
           platform: "Ruby"
           content: "Effortlessly perform document editing operations within your apps using our SDK for Ruby."
@@ -90,7 +90,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/editor/node.js"
           img_alt: "GroupDocs.Editor Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-node.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-node.webp"
           product: "GroupDocs.Editor"
           platform: "Node.js"
           content: "Document editor SDK for Node.js to efficiently integrate our cloud-based editor API in your apps."
@@ -98,7 +98,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/editor/android/"
           img_alt: "GroupDocs.Editor Cloud SDK for Android"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-android.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-android.webp"
           product: "GroupDocs.Editor"
           platform: "Android"
           content: "Android SDK for fast and clean document edit in your apps via our cloud-based editor API."

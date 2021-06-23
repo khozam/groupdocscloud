@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Parser Cloud SDK for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-java.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-java.webp"
         product: "GroupDocs.Parser"
         platform: "Cloud SDK for Java"
 
@@ -248,42 +248,42 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-curl.webp"
           product: "GroupDocs.Parser"
           platform: "Cloud for cURL"
           link: "/parser/curl"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-net.webp"
           product: "GroupDocs.Parser"
           platform: "Cloud SKD for .NET"
           link: "/parser/net"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-php.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-php.webp"
           product: "GroupDocs.Parser"
           platform: "Cloud SDK for PHP"
           link: "/parser/php"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-python.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-python.webp"
           product: "GroupDocs.Parser"
           platform: "Cloud SDK for Python"
           link: "/parser/python"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-ruby.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-ruby.webp"
           product: "GroupDocs.Parser"
           platform: "Cloud SDK for Ruby"
           link: "/parser/ruby"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-node.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-node.webp"
           product: "GroupDocs.Parser"
           platform: "Cloud SDK for Node.js"
           link: "/parser/nodejs"

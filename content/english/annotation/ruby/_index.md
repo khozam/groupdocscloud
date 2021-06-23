@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Annotation Cloud SDK for Ruby"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-ruby.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-ruby.webp"
         product: "GroupDocs.Annotation"
         platform: "Ruby"
 
@@ -251,56 +251,56 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-curl.webp"
           product: "GroupDocs.Annotation"
           platform: "cURL"
           link: "/annotation/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-net.webp"
           product: "GroupDocs.Annotation"
           platform: ".NET"
           link: "/annotation/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-java.webp"
           product: "GroupDocs.Annotation"
           platform: "Java"
           link: "/annotation/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-php.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-php.webp"
           product: "GroupDocs.Annotation"
           platform: "PHP"
           link: "/annotation/php/"
 
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-python.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-python.webp"
           product: "GroupDocs.Annotation"
           platform: "Python"
           link: "/annotation/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-ruby.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-ruby.webp"
           product: "GroupDocs.Annotation"
           platform: "Ruby"
           link: "/annotation/ruby/"
 
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-node.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-node.webp"
           product: "GroupDocs.Annotation"
           platform: "Node.js"
           link: "/annotation/nodejs/"
 
         # solution loop
         - img_alt: "GroupDocs.Annotation Cloud SDK for Android"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-android.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_annotation-for-android.webp"
           product: "GroupDocs.Annotation"
           platform: "Android"
           link: "/annotation/android/"

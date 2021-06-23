@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Editor Cloud SDK for Node.js"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-node.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-node.webp"
         product: "GroupDocs.Editor"
         platform: "NodeJS"
 

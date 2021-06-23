@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger Cloud SDK for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-java.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-java.webp"
         product: "GroupDocs.Merger"
         platform: "Cloud SDK for Java"
 
@@ -247,48 +247,48 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-curl.webp"
           product: "GroupDocs.Merger"
           platform: "Cloud for cURL"
           link: "/merger/curl"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-net.webp"
           product: "GroupDocs.Merger"
           platform: "Cloud SKD for .NET"
           link: "/merger/net"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-php.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-php.webp"
           product: "GroupDocs.Merger"
           platform: "Cloud SDK for PHP"
           link: "/merger/php"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-python.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-python.webp"
           product: "GroupDocs.Merger"
           platform: "Cloud SDK for Python"
           link: "/merger/python"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-ruby.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-ruby.webp"
           product: "GroupDocs.Merger"
           platform: "Cloud SDK for Ruby"
           link: "/merger/ruby"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-node.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-node.webp"
           product: "GroupDocs.Merger"
           platform: "Cloud SDK for Node.js"
           link: "/merger/nodejs"
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Android"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-android.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_merger-for-android.webp"
           product: "GroupDocs.Merger"
           platform: "Cloud SDK for Android"
           link: "/merger/android"

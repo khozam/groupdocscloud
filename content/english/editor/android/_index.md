@@ -26,7 +26,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Editor Cloud SDK for Android"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-android.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-android.webp"
         product: "GroupDocs.Editor"
         platform: "Android"
 

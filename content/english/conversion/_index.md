@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/conversion/curl/"
           img_alt: "GroupDocs.Conversion Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.webp"
           product: "GroupDocs.Conversion"
           platform: "cURL"
           content: "Work with cURL RESTful file conversion API to easily convert Microsoft Office, PDF, Email, Project, HTML and other common file formats in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/conversion/net/"
           img_alt: "GroupDocs.Conversion Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.webp"
           product: "GroupDocs.Conversion"
           platform: ".NET"
           content: ".NET Document Viewer REST API to accurately render documents to and from widely used file formats on any platform using Cloud SDK."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/conversion/java/"
           img_alt: "GroupDocs.Conversion Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.webp"
           product: "GroupDocs.Conversion"
           platform: "Java"
           content: "Enrich your cloud-based Java applications with advanced documents conversion features on any platform capable of calling REST APIs."
@@ -53,7 +53,7 @@ apis:
         # api_product loop
         - link: "/conversion/net/"
           img_alt: "GroupDocs.Conversion for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.webp"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
           content: "Native .NET API to accurately convert documents & image file formats in any types of .NET application. Supports adding image watermarks while conversion."
@@ -61,7 +61,7 @@ apis:
         # api_product loop
         - link: "/conversion/java/"
           img_alt: "GroupDocs.Conversion for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.webp"
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Enable your Java applications to easily convert between all industry-standard document formats including Microsoft Office, PDF, HTML, images and many others."
@@ -75,7 +75,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/total"
           img_alt: "GroupDocs.Conversion Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.webp"
           product: "GroupDocs.Conversion"
           platform: "Total"
           content: "Convert more than 50 document formats to PDF, XLSX, DOCX, XPS, HTML and more."
@@ -83,7 +83,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/doc-to-xls"
           img_alt: "GroupDocs.Conversion DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.webp"
           product: "GroupDocs.Conversion"
           platform: "DOC to XLS"
           content: "Free app to convert DOC to XLS format from any web browser."
@@ -91,7 +91,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/pdf-to-docx"
           img_alt: "GroupDocs.Conversion PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.webp"
           product: "GroupDocs.Conversion"
           platform: "PDF to DOCX"
           content: "Upload your PDF documents for seamless conversion to Word (DOCX) format."

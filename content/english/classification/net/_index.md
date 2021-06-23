@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Classification for Cloud"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_classification-for-net.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_classification-for-net.webp"
         product: "GroupDocs.Classification"
         platform: ".NET"
 
@@ -223,14 +223,14 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Viewer"
           platform: "cURL"
           link: "/classification/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Viewer"
           platform: ".NET"
           link: "/classification/net/"

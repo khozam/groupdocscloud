@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Editor Cloud for cURL"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-curl.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-curl.webp"
         product: "GroupDocs.Editor"
         platform: "cURL"
 

@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/viewer/curl/"
           img_alt: "GroupDocs.Viewer Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Viewer"
           platform: "cURL"
           content: "Work with cURL RESTful document viewer API to quickly render and display Microsoft Office, PDF and other common file formats in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/viewer/net/"
           img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.webp"
           product: "GroupDocs.Viewer"
           platform: ".NET"
           content: "Add powerful document formats viewing capabilities in .NET applications using Cloud SDK for .NET. View documents in HTML, PDF or as image."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/viewer/java/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.webp"
           product: "GroupDocs.Viewer"
           platform: "Java"
           content: "Add high fidelity document rendering features to your java applications with specially designed document viewer SDK for Java."
@@ -54,7 +54,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/net/"
           img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.webp"
           product: "GroupDocs.Viewer for"
           platform: ".NET"
           content: "Multi-format document viewer API for .NET and Mono frameworks to render 170+ popular file formats from within your applications."
@@ -62,7 +62,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/java/"
           img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.webp"
           product: "GroupDocs.Viewer for"
           platform: "Java"
           content: "Empower Java applications with document viewing and rendering capabilities to display a wide range of documents, images & diagrams."
@@ -75,7 +75,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/total"
           img_alt: "GroupDocs.Viewer Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.webp"
           product: "GroupDocs.Viewer"
           platform: "Total"
           content: "Free online app to view more than 90 file formats from any browser of your choice."
@@ -83,7 +83,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/docx"
           img_alt: "GroupDocs.Viewer DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.webp"
           product: "GroupDocs.Viewer"
           platform: "DOCX"
           content: "Free web app to view Microsoft Word files online from any device."
@@ -91,7 +91,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/pdf"
           img_alt: "GroupDocs.Viewer PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.webp"
           product: "GroupDocs.Viewer"
           platform: "PDF"
           content: "View Portable Document Format (PDF) directly from your web browser."

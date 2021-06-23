@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Editor Cloud SDK for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-java.png"
+        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-java.webp"
         product: "GroupDocs.Editor"
         platform: "JAVA"
 

@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "/editor/curl/"
           img_alt: "GroupDocs.Editor Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-curl.webp"
           product: "GroupDocs.Editor for"
           platform: "cURL"
           content: "Work with cURL RESTful document editor API to modify document contents of Word, Excel, Presentations, HTML and Text documents in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "/editor/net/"
           img_alt: "GroupDocs.Editor Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-net.webp"
           product: "GroupDocs.Editor for"
           platform: ".NET"
           content: "Add powerful document formats editing features in .NET applications using Cloud SDK for .NET. Edit MS Office, Web and XML documents."
@@ -41,7 +41,7 @@ apis:
           # api_product loop
         - link: "/editor/java/"
           img_alt: "GroupDocs.Editor Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-java.webp"
           product: "GroupDocs.Editor for"
           platform: "Java"
           content: "Advanced document editor SDK for Java applications to edit industry standard document file formats on any platform capable to call REST APIs."
@@ -54,7 +54,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/editor/net/"
           img_alt: "GroupDocs.Editor for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-editor-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-editor-net.webp"
           product: "GroupDocs.Editor"
           platform: ".NET"
           content: "On Premise .NET API that helps your application to view, edit and then convert documents."
@@ -62,7 +62,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.com/editor/java/"
           img_alt: "GroupDocs.Editor for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-editor-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-editor-java.webp"
           product: "GroupDocs.Editor"
           platform: "Java"
           content: "Document editing API for Microsoft Office, OpenOffice, HTML and other documents to manipulate within your Java based applications."
@@ -76,7 +76,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/editor/total"
           img_alt: "GroupDocs.Editor Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_editor-app.png"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_editor-app.webp"
           product: "GroupDocs.Editor"
           platform: "Total"
           content: "Web-based free online app to edit popular file formats from Office & OpenOffice."
@@ -84,7 +84,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/editor/doc-to-xls"
           img_alt: "GroupDocs.Editor DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.webp"
           product: "GroupDocs.Editor"
           platform: "DOC to XLS"
           content: "Free editor app to view & edit Microsoft Word documents online."
@@ -92,7 +92,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/editor/pdf-to-docx"
           img_alt: "GroupDocs.Editor XLSM"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_cells-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_cells-app.webp"
           product: "GroupDocs.Editor"
           platform: "PDF to DOCX"
           content: "Use any device, any browser to view or edit Microsoft Excel spreadsheets."

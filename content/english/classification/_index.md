@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/classification/curl/"
           img_alt: "GroupDocs.Classification Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Classification"
           platform: "cURL"
           content: "Do not worry about the platform, just send a REST API call to classify the text and MS Word, OpenOffice, PDF documents from devices capable of executing cURL commands."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/classification/net/"
           img_alt: "GroupDocs.Classification Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.webp"
           product: "GroupDocs.Classification"
           platform: ".NET"
           content: "Open source cloud SDK designed for .NET developers to use GroupDocs.Classification REST APIs."
@@ -47,7 +47,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/classification/net/"
           img_alt: "GroupDocs.Classification for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-splitter-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-splitter-net.webp"
           product: "GroupDocs.Classification for"
           platform: ".NET"
           content: "Develop .NET applications with documents and text categorization features to analyze & extract content without using any external tool."
@@ -62,7 +62,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/classification/total"
           img_alt: "GroupDocs.Classification Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.webp"
           product: "GroupDocs.Classification"
           platform: "Total"
           content: "Try the free app to classify Microsoft Word, OpenOffice, PDF, TXT & RTF files online."
@@ -70,7 +70,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/classification/docx"
           img_alt: "GroupDocs.Classification DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.webp"
           product: "GroupDocs.Classification"
           platform: "DOCX"
           content: "Classify DOCX documents based on IAB-2 or documents taxonomies."
@@ -78,7 +78,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/classification/pdf"
           img_alt: "GroupDocs.Classification PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.webp"
           product: "GroupDocs.Classification"
           platform: "PDF"
           content: "Categorize PDF documents online with IAB-2 or documents taxonomies."
