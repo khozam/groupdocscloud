@@ -1,5 +1,11 @@
 <!-- Header -->
-<script>(function(i, s, o, g, r, a, m) {i['ContainerizeMenuObject'] = r; i[r] = i[r] || function() {(i[r].q = i[r].q || []).push(arguments)}, i[r].l = 1 * new Date(); a = s.createElement(o),m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.append(a)})(window, document, 'script', 'https://menu-new.containerize.com/scripts/engine.min.js?v=1.0.1', 'groupdocscloud-en');</script>
+{{ $menu := "" }}
+{{ if in .Site.BaseURL "sdks.groupdocs.cloud"}}
+{{ $menu = "groupdocscloud-en"}}
+{{ else if in .Site.BaseURL "products.groupdocs.com"}}
+{{ $menu = "groupdocs-en" }}
+{{ end }}
+<script>(function(i, s, o, g, r, a, m) {i['ContainerizeMenuObject'] = r; i[r] = i[r] || function() {(i[r].q = i[r].q || []).push(arguments)}, i[r].l = 1 * new Date(); a = s.createElement(o),m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.append(a)})(window, document, 'script', 'https://menu-new.containerize.com/scripts/engine.min.js?v=1.0.1', '$menu');</script>
 
 <!-- JS scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
