@@ -23,7 +23,7 @@ product:
   description: "Document automation has always been an complex process until now, <br> with GroupDocs REST APIs automate your documents in any way imaginable"
   product_item:
     # product item loop
-    - image : "/logo/groupdocs-total-cloud.png"
+    - image : "/sdk/90x90/groupdocs-viewer-cloud.webp"
       name: GroupDocs.Total Product Family
       link: "total"
       content: "Enable your applications to manipulate more than 100 file formats. Includes all of our 25+ individual products."
