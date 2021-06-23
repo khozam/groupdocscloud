@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  <meta name="baidu-site-verification" content="cscU32Frqy">
+  <meta name="yandex-verification" content="d9c1d73d40212e63">
+  <meta name="google-site-verification" content="Yv-mmER0pOkm2mnmxQ_lg86EO9k-mkBwNVqkD-Hc6sU">
+  
+  
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-config" content="https://cms.admin.containerize.com/templates/groupdocs/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  
+  
+  <title>Parse Documents and Extract Data with Node.js</title>
+  
+  
+  <meta name="description" content="Parse documents by template and fetch plain and formatted text, markdown text, HTML tags, images and document information using Node.js.">
+  
+  <meta name="author" content="GroupDocs">
+  
+  
+  
+  
+  
+  <meta property="og:image" content="https://cms.admin.containerize.com/templates/groupdocs/img/svg/groupdocs-logo.svg" />
+  <meta name="twitter:image" content="https://cms.admin.containerize.com/templates/groupdocs/img/svg/groupdocs-logo.svg"/>
+  
+  
+  <meta property="og:title" content="Extract data from your documents with this REST API &amp; Node.js Cloud SDK" />
+<meta property="og:description" content="Extract text, images, metadata and other data from 40&#43; document formats. Apply template to extract tables or specific data fields." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="//localhost:1313/parser/nodejs/" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Extract data from your documents with this REST API &amp; Node.js Cloud SDK"/>
+<meta name="twitter:description" content="Extract text, images, metadata and other data from 40&#43; document formats. Apply template to extract tables or specific data fields."/>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-27946748-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-27946748-1');
+  </script>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link rel="stylesheet" href="/scss/bundled.min.css" media="screen">
+  
+  
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://cms.admin.containerize.com/templates/groupdocs/images/favicon.ico">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="https://cms.admin.containerize.com/templates/groupdocs/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cms.admin.containerize.com/templates/groupdocs/images/favicon-32x32.webp">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cms.admin.containerize.com/templates/groupdocs/images/favicon-16x16.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cms.admin.containerize.com/templates/groupdocs/images/apple-touch-icon.webp">
+  <link rel="mask-icon" href="https://cms.admin.containerize.com/templates/groupdocs/images/safari-pinned-tab.svg" color="#FFFFFF">
+
+  
+
+</head>
+<body>
+
+
+
+
+<a id="top" class="anchor" name="top"></a>
+<section class="page-title bg-2" style="background-image: url('https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.webp'); background-position: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Extract data from your documents with this REST API &amp; Node.js Cloud SDK</h1>
+          <p>Extract text, images, metadata and other data from 40&#43; document formats. Apply template to extract tables or specific data fields.</p>
+          
+            
+              <a href="https://dashboard.groupdocs.cloud/" class="btn btn-main btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Start Free Trial</a>
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<a id="submenu" class="anchor" name="submenu"></a>
+<section class="submenu stickysubmenu">
+    <div class="container section-default-padding " >
+        <div class="row">
+            
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <h4>
+                    <img alt="GroupDocs.Parser Cloud SDK for Nodejs" data-src="/sdk/272x272/groupdocs_parser-for-node.webp" src="/sdk/272x272/groupdocs_parser-for-node.webp">
+                    GroupDocs.Parser
+                    
+                        <div><small>Cloud SDK for Cloud SDK for Node.js</small></div>
+                    
+                </h4>
+            </div>
+            
+            
+            <div class="col-sm-5 col-md-5">
+                <ul class="nav nav-pills mb-hide">
+                    
+                    <li><a href="#overview">Overview</a></li>
+                    
+                    <li><a href="#features">Features</a></li>
+                    
+                    <li><a href="https://docs.groupdocs.cloud/parser/release-notes/">Release Notes</a></li>
+                    
+                    <li><a href="https://purchase.groupdocs.cloud/pricing">Pricing</a></li>
+                    
+                </ul>
+            </div>
+            
+            
+            <div class="col-sm-4 col-md-4 text-center">
+                <a href="https://groupdocscloud.github.io/" class="btn btn-small btn-download animated fadeInUp"><i class="fas fa-arrow-down"></i>  Download</a>
+                <a href="https://docs.groupdocs.cloud/parser/" class="btn btn-small btn-learn animated fadeInUp"><i class="fas fa-file-alt"></i> Learn</a>
+                <a href="https://purchase.groupdocs.cloud/buy" class="btn btn-small btn-buy animated fadeInUp"><i class="fas fa-shopping-cart"></i> Buy</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<a id="overview" class="anchor" name="overview"></a>
+<section class="overview bg-gray">
+    <div class="container section-default-padding">
+        <div class="row">
+            <p class="mt-30">GroupDocs.Parser Cloud for Node.js is a wrapper around document data extraction REST API to parse over 50 document types. Extract text in various modes, extract images, parsing documents with predefined templates are the most popular features of GroupDocs.Parser Cloud API.
+The API supports password protected files and containers like ZIP archives, OST/PST mail data files, eBooks, markups, and PDF portfolios in your Node.js applications.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="overview-tabs bg-gray">
+    <div class="row">
+        
+        <ul class="nav nav-pills nav-center">
+            <li data-target="#tabsCarousel" data-slide-to="0" class="" data-toggle="tab">
+                At a
+                <div>Glance</div>
+            </li>
+            <li data-target="#tabsCarousel" data-slide-to="1" class="active" data-toggle="tab">
+                Supported
+                <div>File Formats</div>
+            </li>
+            <li data-target="#tabsCarousel" data-slide-to="2" class="" data-toggle="tab">
+                Platform
+                <div>Independence</div>
+            </li>
+        </ul>
+    </div>
+    <div class="row bg-white">
+        <div class="container section-default-padding">
+            <div class="col-md-12">
+                
+                <div class="carousel slide" id="tabsCarousel">
+                    <div class="tab-content carousel-inner">
+                        <div class="item">
+                            <p>An overview of the features supported by the document parser Cloud API.‎</p>
+                            <div class="diagram1 d1-cloud">
+                                <div class="d1-row">
+                                    <div class="d1-col d1-left">
+                                        
+                                            
+                                                <header><i class="fas fa-list-ul"></i> Features</header>
+                                                <ul>
+<li>Parse documents</li>
+<li>Parse document by template</li>
+<li>Extract text</li>
+<li>Extract images</li>
+<li>Extract metadata</li>
+</ul>
+
+                                            
+                                        
+                                    </div>
+                                    <div class="d1-col d1-right">
+                                        
+                                            
+                                                <header><i class="fas fa-files-o"></i> Extract from Documents</header>
+                                                <ul>
+<li>Emails</li>
+<li>eBooks</li>
+<li>PDF files</li>
+<li>PDF Portfolio</li>
+<li>Files within ZIP archives</li>
+<li>Text and Markup documents</li>
+<li>Microsoft &amp; OpenDocument Formats</li>
+</ul>
+
+                                            
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="d1-logo">
+                                    <img alt="GroupDocs.Parser for Nodejs" data-src="" src="/sdk/90x90/groupdocs_parser-for-nodejs.webp">
+                                    <header>GroupDocs.Parser</header>
+                                    <footer>
+                                    	
+					                        <small><em>Cloud SDK for</em> Nodejs</small>
+					                    
+                                    </footer>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item active">
+                            <p>Document parser Cloud API supported formats.‎</p>
+                            <div class="diagram1 d2 d1-cloud">
+                                <div class="d1-row">
+                                    <div class="d1-col d1-left">
+                                        
+                                            
+                                                
+                                                    <header>Microsoft Office Formats</header>
+                                                    <ul>
+<li><strong>Word Processing</strong>: DOC, DOCX, DOCM, DOT, DOTX, DOTM</li>
+<li><strong>Spreadsheets</strong>: XLS, XLSX, XLSM, XLSB, XLT, XLTX, XLTM, XLA, XLAM</li>
+<li><strong>Presentations</strong>: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX, POTM</li>
+<li><strong>OneNote</strong>: ONE</li>
+</ul>
+
+                                                
+                                            
+                                        
+                                    </div>
+                                    <div class="d1-col d1-right">
+                                        
+                                            
+                                                
+                                                    <header>OpenDocument &amp; Other Formats</header>
+                                                    <ul>
+<li><strong>OpenDocument Formats</strong>: ODT, OTT, ODS, OTS, ODP, OTP</li>
+<li><strong>Text</strong>: TXT, RTF</li>
+<li><strong>Markup</strong>: HTML, XHTML, MHTML, MD, XML</li>
+<li><strong>Portable Formats</strong>: PDF</li>
+<li><strong>Email</strong>: PST, OST, EML, EMLX, MSG</li>
+<li><strong>eBook Formats</strong>: EPUB, FB2, CHM</li>
+<li><strong>Other</strong>: NUMBERS, CSV, ZIP</li>
+</ul>
+
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="d1-logo">
+                                    <img alt="GroupDocs.Parser for Nodejs" data-src="" src="/sdk/90x90/groupdocs_parser-for-nodejs.webp">
+                                    <header>GroupDocs.Parser</header>
+                                    <footer>
+                                        
+					                        <small><em>Cloud SDK for</em> Nodejs</small>
+					                    
+                                    </footer>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>Supported Operating Systems and Frameworks‎</p>
+                            <div class="diagram1 d1-cloud">
+                                
+                                   <img title="Platform Independence" src="https://www.groupdocs.cloud/templates/groupdocs/images/supported-platform-min.webp" alt="GroupDocs.Editor Platform Independence" />
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="features" class="anchor" name="features"></a>
+<section class="features bg-gray">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                <h2>Document Parser REST API Features</h2>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-files-o fa-2x"></i>
+                    <p>Parse PDF, word processing documents, spreadsheets &amp; presentations</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-file fa-2x"></i>
+                    <p>Parse Microsoft Word, Excel, PowerPoint and OpenDocument template files</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-file-text fa-2x"></i>
+                    <p>Parse Macro-Enabled document &amp; templates for MS Word, Excel &amp; PowerPoint</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-file-text-o fa-2x"></i>
+                    <p>Extract text content from the whole document</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-file-image-o fa-2x"></i>
+                    <p>Extract text and images from specific pages</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-font fa-2x"></i>
+                    <p>Extract formatted text by setting extraction mode</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-file-archive-o fa-2x"></i>
+                    <p>Extract text from the documents in ZIP archives or Emails</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-envelope-o fa-2x"></i>
+                    <p>Retrieve documents from Emails, PDF portfolios &amp; MS Outlook storages</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="fas fa-files-o fa-2x"></i>
+                    <p>Get document page count and other information</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="more-feature-item">
+                    <h3>Extract Formatted text from a Document</h4>
+                    <p>GroupDocs.Parser Cloud API, provides several ways to extract text from documents. Following example shows how to extract formatted text from a document.</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="more-feature-item">
+                    <h3>Extract formatted text from a document - Node.js</h4>
+                    <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Node.js" data-lang="Node.js"><span style="color:#75715e">// For complete examples and data files, please go to https://github.com/groupdocs-parser-cloud/groupdocs-parser-cloud-node-samples
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">global</span>.<span style="color:#a6e22e">parser_cloud</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;groupdocs-parser-cloud&#34;</span>);
+
+<span style="color:#a6e22e">global</span>.<span style="color:#a6e22e">appSid</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;XXXX-XXXX-XXXX-XXXX&#34;</span>; <span style="color:#75715e">// Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">global</span>.<span style="color:#a6e22e">appKey</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;XXXXXXXXXXXXXXXX&#34;</span>; <span style="color:#75715e">// Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+</span><span style="color:#75715e"></span>
+<span style="color:#a6e22e">global</span>.<span style="color:#a6e22e">parseApi</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">parser_cloud</span>.<span style="color:#a6e22e">ParseApi</span>.<span style="color:#a6e22e">fromKeys</span>(<span style="color:#a6e22e">appSid</span>, <span style="color:#a6e22e">appKey</span>);
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fileInfo</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">parser_cloud</span>.<span style="color:#a6e22e">FileInfo</span>();
+<span style="color:#a6e22e">fileInfo</span>.<span style="color:#a6e22e">filePath</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;words-processing/docx/formatted-document.docx&#34;</span>;
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">options</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">parser_cloud</span>.<span style="color:#a6e22e">TextOptions</span>();
+<span style="color:#a6e22e">options</span>.<span style="color:#a6e22e">fileInfo</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fileInfo</span>;
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">formattedTextOptions</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">parser_cloud</span>.<span style="color:#a6e22e">FormattedTextOptions</span>();
+<span style="color:#a6e22e">formattedTextOptions</span>.<span style="color:#a6e22e">mode</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Markdown&#34;</span>;
+<span style="color:#a6e22e">options</span>.<span style="color:#a6e22e">formattedTextOptions</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">formattedTextOptions</span>;
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">request</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">parser_cloud</span>.<span style="color:#a6e22e">TextRequest</span>(<span style="color:#a6e22e">options</span>);
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">response</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">parseApi</span>.<span style="color:#a6e22e">text</span>(<span style="color:#a6e22e">request</span>);
+    <span style="color:#e6db74">```
+</span></code></pre></div></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="support" class="anchor" name="support"></a>
+<section class="support bg-primary">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                <h2>Support and Learning Resources</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="product-item">
+                    <h3>Learning Resources</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="https://docs.groupdocs.com/parser/nodejs">Documentation</a>
+                            </li>
+                            <li>
+                            	<a href="https://github.com/groupdocs-">Source Code</a>
+                            </li>
+                            <li>
+                                <a href="https://apireference.groupdocs.cloud/">API References</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCSRRI9t9ooReVo82e1d1a0g/">Video Tutorials</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="product-item">
+                    <h3>Product Support</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="https://forum.groupdocs.cloud/c/">Free Support</a>
+                            </li>
+                            <li>
+                                <a href="https://blog.groupdocs.cloud/category/">Blog</a>
+                            </li>
+                            <li>
+                                <a href="https://docs.groupdocs.cloud/">Release Notes</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row support-btns">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <a href="https://dashboard.groupdocs.cloud/" class="btn btn-support btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Start Free Trial</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <a href="https://github.com/groupdocs-" class="btn btn-support btn-icon animated fadeInUp"><i class="fab fa-github-alt"></i> Download Github Repository</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<a id="solutions" class="anchor" name="solutions"></a>
+<section class="solutions bg-primary">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                <h2>GroupDocs.Parser Cloud also offers individual document parsing SDKs for other languages as listed below:</h2>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-3 col-md-3 solution-container">
+                <h4>
+                    <a href="/parser/curl">
+                        <img alt="GroupDocs.Parser Cloud for cURL" data-src="/sdk/272x272/groupdocs_parser-for-curl.webp" src="/sdk/272x272/groupdocs_parser-for-curl.webp">
+                        GroupDocs.Parser
+                        
+                        <div><small>Cloud SDK for Cloud for cURL</small></div>
+                        
+                    </a>
+                </h4>
+            </div>
+            
+            <div class="col-sm-3 col-md-3 solution-container">
+                <h4>
+                    <a href="/parser/net">
+                        <img alt="GroupDocs.Parser Cloud SDK for .NET" data-src="/sdk/272x272/groupdocs_parser-for-net.webp" src="/sdk/272x272/groupdocs_parser-for-net.webp">
+                        GroupDocs.Parser
+                        
+                        <div><small>Cloud SDK for Cloud SKD for .NET</small></div>
+                        
+                    </a>
+                </h4>
+            </div>
+            
+            <div class="col-sm-3 col-md-3 solution-container">
+                <h4>
+                    <a href="/parser/java">
+                        <img alt="GroupDocs.Parser Cloud SDK for Java" data-src="/sdk/272x272/groupdocs_parser-for-java.webp" src="/sdk/272x272/groupdocs_parser-for-java.webp">
+                        GroupDocs.Parser
+                        
+                        <div><small>Cloud SDK for Cloud SDK for Java</small></div>
+                        
+                    </a>
+                </h4>
+            </div>
+            
+            <div class="col-sm-3 col-md-3 solution-container">
+                <h4>
+                    <a href="/parser/php">
+                        <img alt="GroupDocs.Parser Cloud SDK for PHP" data-src="/sdk/272x272/groupdocs_parser-for-php.webp" src="/sdk/272x272/groupdocs_parser-for-php.webp">
+                        GroupDocs.Parser
+                        
+                        <div><small>Cloud SDK for Cloud SDK for PHP</small></div>
+                        
+                    </a>
+                </h4>
+            </div>
+            
+            <div class="col-sm-3 col-md-3 solution-container">
+                <h4>
+                    <a href="/parser/python">
+                        <img alt="GroupDocs.Parser Cloud SDK for Python" data-src="/sdk/272x272/groupdocs_parser-for-python.webp" src="/sdk/272x272/groupdocs_parser-for-python.webp">
+                        GroupDocs.Parser
+                        
+                        <div><small>Cloud SDK for Cloud SDK for Python</small></div>
+                        
+                    </a>
+                </h4>
+            </div>
+            
+            <div class="col-sm-3 col-md-3 solution-container">
+                <h4>
+                    <a href="/parser/ruby">
+                        <img alt="GroupDocs.Parser Cloud SDK for Ruby" data-src="/sdk/272x272/groupdocs_parser-for-ruby.webp" src="/sdk/272x272/groupdocs_parser-for-ruby.webp">
+                        GroupDocs.Parser
+                        
+                        <div><small>Cloud SDK for Cloud SDK for Ruby</small></div>
+                        
+                    </a>
+                </h4>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<a href="#top" id="back-top" class="back-to-top">
+    <div>
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</a>
+
+
+
+
+
+<script>(function(i, s, o, g, r, a, m) {i['ContainerizeMenuObject'] = r; i[r] = i[r] || function() {(i[r].q = i[r].q || []).push(arguments)}, i[r].l = 1 * new Date(); a = s.createElement(o),m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.append(a)})(window, document, 'script', 'https://menu-new.containerize.com/scripts/engine.min.js?v=1.0.1', '$menu');</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+<script src="/js/bundled.min.js"></script>
+
+
+
+</body>
+
+</html>

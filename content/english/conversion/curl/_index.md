@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for Cloud for cURL"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
+        image: "/sdk/272x272/groupdocs_conversion-for-curl.webp"
         product: "GroupDocs.Conversion"
         platform: "cURL"
 
@@ -207,7 +207,7 @@ features:
           -H "accept: application/json" \
           -H "authorization: Bearer TOKEN-HERE" \
           -H "Content-Type: application/json" \
-          -d "{ \"StorageName\": \"First Storage\", \"FilePath\": \"/foldername/myfile.png\", \"Format\": \"jpeg\", \"LoadOptions\": {}, \"ConvertOptions\": { \"FromPage\": 0, \"PagesCount\": 1, \"Pages\": [ 1 ] }, \"OutputPath\": \"/foldername\"}"
+          -d "{ \"StorageName\": \"First Storage\", \"FilePath\": \"/foldername/myfile.webp\", \"Format\": \"jpeg\", \"LoadOptions\": {}, \"ConvertOptions\": { \"FromPage\": 0, \"PagesCount\": 1, \"Pages\": [ 1 ] }, \"OutputPath\": \"/foldername\"}"
           ```
 
       # more_feature_loop
@@ -234,56 +234,56 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-curl.webp"
           product: "GroupDocs.Conversion"
           platform: "cURL"
           link: "/conversion/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-net.webp"
           product: "GroupDocs.Conversion"
           platform: ".NET"
           link: "/conversion/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-java.webp"
           product: "GroupDocs.Conversion"
           platform: "Java"
           link: "/conversion/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-php.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-php.webp"
           product: "GroupDocs.Conversion"
           platform: "PHP"
           link: "/conversion/php/"
 
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-python.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-python.webp"
           product: "GroupDocs.Conversion"
           platform: "Python"
           link: "/conversion/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-ruby.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-ruby.webp"
           product: "GroupDocs.Conversion"
           platform: "Ruby"
           link: "/conversion/ruby/"
 
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-node.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-node.webp"
           product: "GroupDocs.Conversion"
           platform: "Node.js"
           link: "/conversion/nodejs/"
 
         # solution loop
         - img_alt: "GroupDocs.Conversion Cloud SDK for Android"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-android.png"
+          image: "/sdk/272x272/groupdocs_conversion-for-android.webp"
           product: "GroupDocs.Conversion"
           platform: "Android"
           link: "/conversion/android/"

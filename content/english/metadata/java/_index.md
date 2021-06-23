@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Metadata Cloud SDK for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-java.png"
+        image: "/sdk/272x272/groupdocs_metadata-for-java.webp"
         product: "GroupDocs.Metadata"
         platform: "Java"
 
@@ -235,21 +235,21 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Metadata for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-curl.png"
+          image: "/sdk/272x272/groupdocs_metadata-for-curl.webp"
           product: "GroupDocs.Metadata"
           platform: "cURL"
           link: "/metadata/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Metadata for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.webp"
           product: "GroupDocs.Metadata"
           platform: ".NET"
           link: "/metadata/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Metadata for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.webp"
           product: "GroupDocs.Metadata"
           platform: "Java"
           link: "/metadata/java/"

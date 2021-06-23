@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Viewer Cloud SDK for Node.js"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-node.png"
+        image: "/sdk/272x272/groupdocs_viewer-for-node.webp"
         product: "GroupDocs.Viewer"
         platform: "Node.js"
 
@@ -243,56 +243,56 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Viewer"
           platform: "cURL"
           link: "/viewer/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-net.webp"
           product: "GroupDocs.Viewer"
           platform: ".NET"
           link: "/viewer/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-java.webp"
           product: "GroupDocs.Viewer"
           platform: "Cloud SKD for Java"
           link: "/viewer/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for PHP"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-php.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-php.webp"
           product: "GroupDocs.Viewer"
           platform: "PHP"
           link: "/viewer/php/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-python.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-python.webp"
           product: "GroupDocs.Viewer"
           platform: "Python"
           link: "/viewer/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Ruby"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-ruby.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-ruby.webp"
           product: "GroupDocs.Viewer"
           platform: "Ruby"
           link: "/viewer/ruby/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Node.js"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-node.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-node.webp"
           product: "GroupDocs.Viewer"
           platform: "Node.js"
           link: "/viewer/nodejs/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Android"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-android.png"
+          image: "/sdk/272x272/groupdocs_viewer-for-android.webp"
           product: "GroupDocs.Viewer"
           platform: "Android"
           link: "/viewer/android/"

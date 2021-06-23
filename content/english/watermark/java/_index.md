@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "Java Document Watermark SDK"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
+        image: "/sdk/272x272/groupdocs_watermark-for-java.webp"
         product: "GroupDocs.Watermark"
         platform: "Java"
 
@@ -204,7 +204,7 @@ features:
                 
                 ImageSearchCriteria imageSearchCriteria = new ImageSearchCriteria();
                 FileInfo imageFileInfo = new FileInfo();
-                imageFileInfo.setFilePath("watermark_images/sample_watermark.png");
+                imageFileInfo.setFilePath("watermark_images/sample_watermark.webp");
                 imageFileInfo.setStorageName(Common.MyStorage);
                 imageSearchCriteria.setImageFileInfo(imageFileInfo);
                 options.setImageSearchCriteria(imageSearchCriteria);
@@ -241,21 +241,21 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Watermark for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-curl.png"
+          image: "/sdk/272x272/groupdocs_watermark-for-curl.webp"
           product: "GroupDocs.Watermark"
           platform: "cURL"
           link: "/watermark/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.png"
+          image: "/sdk/272x272/groupdocs_watermark-for-net.webp"
           product: "GroupDocs.Watermark"
           platform: ".NET"
           link: "/watermark/net/"
         
         # solution loop
         - img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
+          image: "/sdk/272x272/groupdocs_watermark-for-java.webp"
           product: "GroupDocs.Watermark"
           platform: "Java"
           link: "/watermark/java/"

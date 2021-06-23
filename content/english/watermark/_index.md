@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/curl/"
           img_alt: "GroupDocs.Watermark Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-curl.png"
+          image: "/sdk/272x272/groupdocs_watermark-for-curl.webp"
           product: "GroupDocs.Watermark"
           platform: "cURL"
           content: "Work with cURL RESTful document watermark API to quickly annotate PDF, Word, Excel, PowerPoint, Visio, images and many other formats in your applications."
@@ -33,7 +33,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/net/"
           img_alt: "GroupDocs.Watermark Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.png"
+          image: "/sdk/272x272/groupdocs_watermark-for-net.webp"
           product: "GroupDocs.Watermark"
           platform: ".NET"
           content: "Use watermark RESTful API easily with .NET SDK to add text, watermark, area, point and various other watermark types to 40+ popular file formats."
@@ -41,7 +41,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/java/"
           img_alt: "GroupDocs.Watermark Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
+          image: "/sdk/272x272/groupdocs_watermark-for-java.webp"
           product: "GroupDocs.Watermark"
           platform: "Java"
           content: "Add high quality document watermark features to document and image formats with specially designed document watermark SDK for Java."
@@ -53,7 +53,7 @@ apis:
         # api_product loop
         - link: "/watermark/net/"
           img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.webp"
           product: "GroupDocs.Watermark for"
           platform: ".NET"
           content: "Native .NET API to efficiently add, edit or delete annotations from documents and images. Supports working with all popular watermark types."
@@ -61,7 +61,7 @@ apis:
         # api_product loop
         - link: "/watermark/java/"
           img_alt: "GroupDocs.Watermark for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.webp"
           product: "GroupDocs.Watermark for"
           platform: "Java"
           content: "Java file watermark API to comprehensively annotate most common document and image file formats on any operating system with JDK installed."
@@ -73,7 +73,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/total"
           img_alt: "GroupDocs.Watermark Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.webp"
           product: "GroupDocs.Watermark"
           platform: "Total"
           content: "Free online app to add watermarks to Word, PowerPoint, Excel, PDF and 40+ other file formats."
@@ -81,7 +81,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/docx"
           img_alt: "GroupDocs.Watermark DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.webp"
           product: "GroupDocs.Watermark"
           platform: "DOCX"
           content: "Add text-based watermarks to Microsoft Word documents online."
@@ -89,7 +89,7 @@ apis:
         # api_product loop
         - link: "https://sdks.groupdocs.cloud/watermark/pdf"
           img_alt: "GroupDocs.Watermark PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.webp"
           product: "GroupDocs.Watermark"
           platform: "PDF"
           content: "Add high quality document watermark features to document and image formats with specially designed document watermark SDK for Java."

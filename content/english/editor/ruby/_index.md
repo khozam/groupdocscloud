@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Editor Cloud SDK for Ruby"
-        image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_editor-for-ruby.png"
+        image: "/sdk/272x272/groupdocs_editor-for-ruby.webp"
         product: "GroupDocs.Editor"
         platform: "Ruby"
 

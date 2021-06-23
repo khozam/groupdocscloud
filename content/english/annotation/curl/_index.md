@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Annotation Cloud for cURL"
-        image: "/sdk/groupdocs_annotation-for-curl.png"
+        image: "/sdk/64x64/groupdocs_annotation-for-curl.webp"
         product: "GroupDocs.Annotation"
         platform: "cURL"
 
@@ -240,49 +240,49 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
-          image: "/sdk/groupdocs_annotation-for-curl.png"
+          image: "/sdk/272x272/groupdocs_annotation-for-curl.webp"
           product: "GroupDocs.Viewer"
           platform: "cURL"
           link: "/annotation/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "/sdk/groupdocs_annotation-for-net.png"
+          image: "/sdk/272x272/groupdocs_annotation-for-net.webp"
           product: "GroupDocs.Viewer"
           platform: ".NET"
           link: "/annotation/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "/sdk/groupdocs_annotation-for-java.png"
+          image: "/sdk/272x272/groupdocs_annotation-for-java.webp"
           product: "GroupDocs.Viewer"
           platform: "Java"
           link: "/annotation/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for PHP"
-          image: "/sdk/groupdocs_annotation-for-php.png"
+          image: "/sdk/272x272/groupdocs_annotation-for-php.webp"
           product: "GroupDocs.Viewer"
           platform: "PHP"
           link: "/annotation/php/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
-          image: "/sdk/groupdocs_annotation-for-python.png"
+          image: "/sdk/272x272/groupdocs_annotation-for-python.webp"
           product: "GroupDocs.Viewer"
           platform: "Python"
           link: "/annotation/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Ruby"
-          image: "/sdk/groupdocs_annotation-for-ruby.png"
+          image: "/sdk/272x272/groupdocs_annotation-for-ruby.webp"
           product: "GroupDocs.Viewer"
           platform: "Ruby"
           link: "/annotation/ruby/"
 
         # solution loop
         - img_alt: "GroupDocs.Viewer Cloud SDK for Node.js"
-          image: "/sdk/groupdocs_annotation-for-node.png"
+          image: "/sdk/272x272/groupdocs_annotation-for-node.webp"
           product: "GroupDocs.Viewer"
           platform: "Node.js"
           link: "/annotation/nodejs/"

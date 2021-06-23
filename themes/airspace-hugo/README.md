@@ -1,7 +1,7 @@
 # Easy Setup (Hugo + Netlify + Forestry)
 Build your website with airspace hugo theme by following this easy steps (No Coding Required)
 
-<a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
+<a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.webp"></a>
 
 In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code. We made this tutorial based on [meghna hugo](https://github.com/themefisher/meghna-hugo) but you can setup everything like this.
 
@@ -44,7 +44,7 @@ Here comes the last step. Go to your [netlify](https://bit.ly/netlify-account) a
 
 | Portfolio  | Service  | Blog  | Contact  |
 |---|---|---|---|
-| ![Portfolio page](https://user-images.githubusercontent.com/37659754/53851035-78e85c80-3fe7-11e9-8589-8a0524071d60.png)  | ![Service page](https://user-images.githubusercontent.com/37659754/53851287-789c9100-3fe8-11e9-9eab-6f1df32d521b.png) | ![Blog page](https://user-images.githubusercontent.com/37659754/53851263-66baee00-3fe8-11e9-974c-fea4d5dabd95.png) | ![Contact page](https://user-images.githubusercontent.com/37659754/53851317-8f42e800-3fe8-11e9-8ba5-8a5a58b4ec1e.png)
+| ![Portfolio page](https://user-images.githubusercontent.com/37659754/53851035-78e85c80-3fe7-11e9-8589-8a0524071d60.webp)  | ![Service page](https://user-images.githubusercontent.com/37659754/53851287-789c9100-3fe8-11e9-9eab-6f1df32d521b.webp) | ![Blog page](https://user-images.githubusercontent.com/37659754/53851263-66baee00-3fe8-11e9-974c-fea4d5dabd95.webp) | ![Contact page](https://user-images.githubusercontent.com/37659754/53851317-8f42e800-3fe8-11e9-8ba5-8a5a58b4ec1e.webp)
 
 **The images are only for demonstration purpose, Please don't use those images.**
 
@@ -84,6 +84,6 @@ If you have questions or need help integrating the product please [contact us](m
 We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
 
 
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![agen](https://gethugothemes.com/wp-content/uploads/edd/2019/09/agen-hugo-theme.jpg)](https://gethugothemes.com/products/agen-hugo/) | [![redlab](https://gethugothemes.com/wp-content/uploads/edd/2019/09/redlab-hugo-thumbnail.jpg)](https://gethugothemes.com/products/redlab-hugo/) |
+| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.webp)](https://themefisher.com/products/hugo-mega-bundle/) | [![agen](https://gethugothemes.com/wp-content/uploads/edd/2019/09/agen-hugo-theme.jpg)](https://gethugothemes.com/products/agen-hugo/) | [![redlab](https://gethugothemes.com/wp-content/uploads/edd/2019/09/redlab-hugo-thumbnail.jpg)](https://gethugothemes.com/products/redlab-hugo/) |
 |:---:|:---:|:---:|
 | **Hugo Mega Bundle**  | **Agen**  | **Red Lab**  |
