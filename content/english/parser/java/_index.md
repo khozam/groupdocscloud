@@ -257,7 +257,7 @@ solutions:
         - img_alt: "GroupDocs.Parser Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_parser-for-net.webp"
           product: "GroupDocs.Parser"
-          platform: "Cloud SKD for .NET"
+          platform: ".NET"
           link: "/parser/net"
 
         # solution loop

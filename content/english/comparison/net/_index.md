@@ -242,7 +242,7 @@ solutions:
         - img_alt: "GroupDocs.Comparison Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_comparison-for-java.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud SKD for Java"
+          platform: "Java"
           link: "/comparison/java"
 
         # solution loop
