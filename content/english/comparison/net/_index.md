@@ -27,7 +27,7 @@ submenu:
         img_alt: "GroupDocs.Comparison Cloud SDK for .NET"
         image: "/sdk/272x272/groupdocs_comparison-for-net.webp"
         product: "GroupDocs.Comparison"
-        platform: "Cloud SDK for .NET"
+        platform: ".NET"
 
     middle:
         button:
@@ -249,27 +249,27 @@ solutions:
         - img_alt: "GroupDocs.Comparison Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_comparison-for-php.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud SDK for PHP"
+          platform: "PHP"
           link: "/comparison/php"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_comparison-for-python.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud SDK for Python"
+          platform: "Python"
           link: "/comparison/python"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_comparison-for-ruby.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud SDK for Ruby"
+          platform: "Ruby"
           link: "/comparison/ruby"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_comparison-for-node.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud SDK for Node.js"
+          platform: "Node.js"
           link: "/comparison/nodejs"
 
         

@@ -34,7 +34,7 @@ apis:
           img_alt: "GroupDocs.Classification Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_classification-for-net.webp"
           product: "GroupDocs.Classification for"
-          platform: "Cloud SDK for .NET"
+          platform: ".NET"
           content: "Use SDK for .NET to quickly add document classification abilities to your .NET apps."
 
           

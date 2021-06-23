@@ -27,7 +27,7 @@ submenu:
         img_alt: "GroupDocs.Parser Cloud SDK for PHP"
         image: "/sdk/272x272/groupdocs_parser-for-php.webp"
         product: "GroupDocs.Parser"
-        platform: "Cloud SDK for PHP"
+        platform: "PHP"
 
     middle:
         button:
@@ -255,28 +255,28 @@ solutions:
         - img_alt: "GroupDocs.Parser Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_parser-for-java.webp"
           product: "GroupDocs.Parser"
-          platform: "Cloud SDK for Java"
+          platform: "Java"
           link: "/parser/java"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_parser-for-python.webp"
           product: "GroupDocs.Parser"
-          platform: "Cloud SDK for Python"
+          platform: "Python"
           link: "/parser/python"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_parser-for-ruby.webp"
           product: "GroupDocs.Parser"
-          platform: "Cloud SDK for Ruby"
+          platform: "Ruby"
           link: "/parser/ruby"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_parser-for-node.webp"
           product: "GroupDocs.Parser"
-          platform: "Cloud SDK for Node.js"
+          platform: "Node.js"
           link: "/parser/nodejs"
    
 

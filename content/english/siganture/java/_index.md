@@ -27,7 +27,7 @@ submenu:
         img_alt: "GroupDocs.Signature Cloud SDK for Java"
         image: "/sdk/272x272/groupdocs_signature-for-java.webp"
         product: "GroupDocs.Signature"
-        platform: "Cloud SDK for Java"
+        platform: "Java"
 
     middle:
         button:
@@ -247,34 +247,34 @@ solutions:
         - img_alt: "GroupDocs.Signature Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_signature-for-php.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud SDK for PHP"
+          platform: "PHP"
           link: "/signature/php"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_signature-for-python.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud SDK for Python"
+          platform: "Python"
           link: "/signature/python"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_signature-for-ruby.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud SDK for Ruby"
+          platform: "Ruby"
           link: "/signature/ruby"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_signature-for-node.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud SDK for Node.js"
+          platform: "Node.js"
           link: "/signature/nodejs"
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Android"
           image: "/sdk/272x272/groupdocs_signature-for-android.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud SDK for Android"
+          platform: "Android"
           link: "/signature/android"
         
 

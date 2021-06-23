@@ -235,7 +235,7 @@ solutions:
         - img_alt: "GroupDocs.Merger Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_merger-for-net.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for .NET"
+          platform: ".NET"
           link: "/merger/net"
 
         # solution loop
@@ -249,34 +249,34 @@ solutions:
         - img_alt: "GroupDocs.Merger Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_merger-for-php.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for PHP"
+          platform: "PHP"
           link: "/merger/php"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_merger-for-python.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Python"
+          platform: "Python"
           link: "/merger/python"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_merger-for-ruby.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Ruby"
+          platform: "Ruby"
           link: "/merger/ruby"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_merger-for-node.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Node.js"
+          platform: "Node.js"
           link: "/merger/nodejs"
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Android"
           image: "/sdk/272x272/groupdocs_merger-for-android.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Android"
+          platform: "Android"
           link: "/merger/android"
         
 

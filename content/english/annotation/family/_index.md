@@ -61,7 +61,7 @@ apis:
           img_alt: "GroupDocs.Viewer Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_viewer-for-php.webp"
           product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for PHP"
+          platform: "PHP"
           content: "PHP document editing SDK to quickly and accurately modify documents formats without installing any external software."
 
         # api_product loop
@@ -69,7 +69,7 @@ apis:
           img_alt: "GroupDocs.Viewer Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_viewer-for-python.webp"
           product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for Python"
+          platform: "Python"
           content: "Document viewer SDK for Python to easily manipulate a wide range of document formats directly within your applications."
 
           
@@ -78,7 +78,7 @@ apis:
           img_alt: "GroupDocs.Viewer Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_viewer-for-ruby.webp"
           product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for Ruby"
+          platform: "Ruby"
           content: "Effortlessly perform document editing operations within your apps using our SDK for Ruby."
 
 
@@ -92,7 +92,7 @@ apis:
           img_alt: "GroupDocs.Viewer Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_viewer-for-node.webp"
           product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for Node.js"
+          platform: "Node.js"
           content: "Document viewer SDK for Node.js to efficiently integrate our cloud-based viewer API in your apps."
 
        

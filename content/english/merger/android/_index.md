@@ -27,7 +27,7 @@ submenu:
         img_alt: "GroupDocs.Merger Cloud SDK for Android"
         image: "/sdk/272x272/groupdocs_merger-for-android.webp"
         product: "GroupDocs.Merger"
-        platform: "Cloud SDK for Android"
+        platform: "Android"
 
     middle:
         button:
@@ -264,34 +264,34 @@ solutions:
         - img_alt: "GroupDocs.Merger Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_merger-for-java.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Java"
+          platform: "Java"
           link: "/merger/java"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_merger-for-php.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for PHP"
+          platform: "PHP"
           link: "/merger/php"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_merger-for-python.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Python"
+          platform: "Python"
           link: "/merger/python"
 
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_merger-for-ruby.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Ruby"
+          platform: "Ruby"
           link: "/merger/ruby"
         # solution loop
         - img_alt: "GroupDocs.Merger Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_merger-for-node.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Node.js"
+          platform: "Node.js"
           link: "/merger/nodejs"
         
 
