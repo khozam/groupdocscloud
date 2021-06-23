@@ -237,7 +237,7 @@ solutions:
         - img_alt: "GroupDocs.Signature Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_signature-for-java.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud SKD for Java"
+          platform: "Java"
           link: "/signature/java"
 
         # solution loop

@@ -242,7 +242,7 @@ solutions:
         - img_alt: "GroupDocs.Comparison Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_comparison-for-net.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud SKD for .NET"
+          platform: ".NET"
           link: "/comparison/net"
 
         # solution loop

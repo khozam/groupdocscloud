@@ -256,7 +256,7 @@ solutions:
         - img_alt: "GroupDocs.Merger Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_merger-for-net.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SKD for .NET"
+          platform: ".NET"
           link: "/merger/net"
 
         # solution loop

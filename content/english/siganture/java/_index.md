@@ -240,7 +240,7 @@ solutions:
         - img_alt: "GroupDocs.Signature Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_signature-for-net.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud SKD for .NET"
+          platform: ".NET"
           link: "/signature/net"
 
         # solution loop

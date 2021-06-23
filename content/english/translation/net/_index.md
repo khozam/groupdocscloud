@@ -290,7 +290,7 @@ solutions:
         - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
           product: "GroupDocs.Viewer"
-          platform: "Cloud SKD for Java"
+          platform: "Java"
           link: "/translation/java/"
 
         

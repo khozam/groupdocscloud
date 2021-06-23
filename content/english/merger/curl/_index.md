@@ -242,7 +242,7 @@ solutions:
         - img_alt: "GroupDocs.Merger Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_merger-for-java.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud SKD for Java"
+          platform: "Java"
           link: "/merger/java"
 
         # solution loop

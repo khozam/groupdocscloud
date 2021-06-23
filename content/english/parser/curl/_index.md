@@ -239,7 +239,7 @@ solutions:
         - img_alt: "GroupDocs.Parser Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_parser-for-java.webp"
           product: "GroupDocs.Parser"
-          platform: "Cloud SKD for Java"
+          platform: "Java"
           link: "/parser/java"
 
         # solution loop

@@ -270,7 +270,7 @@ solutions:
         - img_alt: "GroupDocs.Annotation Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_annotation-for-java.webp"
           product: "GroupDocs.Annotation"
-          platform: "Cloud SKD for Java"
+          platform: "Java"
           link: "/annotation/java/"
 
         # solution loop
