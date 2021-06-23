@@ -27,7 +27,7 @@ product:
   description: "GroupDocs.Total Cloud is a complete package of REST APIs that can help the developers to build applications with capabilities to view, annotate, e-sign, convert, compare, merge, split or classify over 50 types of document types and images. It supports all major file formats from Microsoft Office, Visio, Project, AutoCAD, Photoshop as well as common formats such as PDF, TXT, HTML, MHTML and more."
   product_item:
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-viewer-cloud.png"
+    - image : "/sdk/90x90/groupdocs-viewer-cloud.webp"
       name: GroupDocs.Viewer Cloud Product Family
       link: "/viewer/family"
       content: "GroupDocs.Viewer Cloud allows you to load & display 50+ types of documents and images in any type of application with the customizable user interface. The Cloud-based Viewer API provides high-fidelity document rendering without requiring any software or plugin installations on the client-side.
